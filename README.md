@@ -76,3 +76,9 @@ Our social network profiles:
 -  [Waypoints](http://imakewebthings.com/waypoints/)
 
 -  [SmoothScroll](https://github.com/cferdinandi/smooth-scroll)
+
+### Licensed under MIT
+
+Pixel Lite UI Kit is Open Source project and licensed under MIT for better Web.
+
+![MIT License](https://img.shields.io/cocoapods/l/AFNetworking.svg?style=for-the-badge)
