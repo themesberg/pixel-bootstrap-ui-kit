@@ -1,45 +1,67 @@
-
-  
-
 # Pixel Lite - Free Bootstrap 4 UI Kit
 
 Pixel Lite Bootstrap 4 UI Kit is a beautifully crafted UI Kit based on Bootstrap 4 Components. This theme was built following Bootstrap's methodologies by the heart. It has 100 components, 3 plugins and 3 example pages.
 
-## [Demo](https://themesberg.com/preview/pixel-lite/)
+Check out the [Demo](https://themesberg.com/preview/pixel-lite/).
 
 ## What's included
 
 Pixel Lite has the following folder structure:
 
 ```
+
 pixel-lite-ui-kit/
-  ├── css/
-  │   ├── pixel.css
-  ├── docs/
-  ├── html/
-  │   ├── pages/
-  │   │   ├── about-startup.html
-  │   │   ├── contact.html
-  │   │   ├── signin.html
-  ├── img/
-  ├── js/
-  │   ├── pixel.js
-  ├── vendor/
-  ├── index.html
+
+├── css/
+
+│ ├── pixel.css
+
+├── docs/
+
+├── html/
+
+│ ├── pages/
+
+│ │ ├── about-startup.html
+
+│ │ ├── contact.html
+
+│ │ ├── signin.html
+
+├── img/
+
+├── js/
+
+│ ├── pixel.js
+
+├── vendor/
+
+├── index.html
+
 ```
 
 ### Features
 
 - 100 Unique components
+
 - 3 Example pages
+
 - Modern Design
+
 - Fully Responsive
+
 - Bootstrap 4
+
 - jQuery
+
 - Header
+
 - Quality code
+
 - Free Logo & Images
+
 - Font Awesome Icons
+
 - and many others..
 
 ### Online documentation
@@ -51,33 +73,36 @@ The documentation can be found at [themesberg.com](https://themesberg.com/previe
 Our social network profiles:
 
 - [Themesberg.com](https://themesberg.com)
+
 - [Twitter](https://twitter.com/themesberg)
+
 - [Facebook](https://www.facebook.com/themesberg)
 
 ## Credits & Libraries
 
--  [Unsplash](https://unsplash.com/)
+- [Unsplash](https://unsplash.com/)
 
--  [Undraw.co](https://undraw.co/)
+* [Undraw.co](https://undraw.co/)
 
--  [Bootstrap](https://getbootstrap.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
--  [jQuery](https://jquery.com/)
--  [Bootstrap Tags Inputs](https://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/)
+* [jQuery](https://jquery.com/)
 
--  [Headroom.js](https://wicky.nillia.ms/headroom.js/)
+* [Bootstrap Tags Inputs](https://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/)
 
--  [FontAwesome](https://fontawesome.com/)
+- [Headroom.js](https://wicky.nillia.ms/headroom.js/)
 
--  [Google Fonts](https://fonts.google.com/)
+* [FontAwesome](https://fontawesome.com/)
 
--  [Popper.js](https://popper.js.org/)
+- [Google Fonts](https://fonts.google.com/)
 
--  [Prism.js](https://prismjs.com/)
+* [Popper.js](https://popper.js.org/)
 
--  [Waypoints](http://imakewebthings.com/waypoints/)
+- [Prism.js](https://prismjs.com/)
 
--  [SmoothScroll](https://github.com/cferdinandi/smooth-scroll)
+* [Waypoints](http://imakewebthings.com/waypoints/)
+
+- [SmoothScroll](https://github.com/cferdinandi/smooth-scroll)
 
 ### Licensed under MIT
 
