@@ -5,7 +5,7 @@
 </p>
 <h1 align="center">Pixel Lite - Free Bootstrap 4 UI Kit</h1>
 
-<p align="center"><b>100+</b> Premium Bootstrap 4 Components, </b>3</b> Example Pages, Full Documentation, Fully Responsive, 100% Valid W3C HTML Files.</p>
+<p align="center"><b>100+</b> Premium Bootstrap 4 Components, </b>3</b> Example Pages, Full Documentation, Fully Responsive, 100% Valid W3C HTML Files and made for <b>awesome developers</b> just like you. It's <strong>Free</strong>.</p>
 
 <p align="center">
     <a href="https://themesberg.com/preview/pixel-lite/" align="center" alt="Pixel Lite Free Bootstrap 4 UI Kit">
