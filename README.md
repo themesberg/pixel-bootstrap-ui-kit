@@ -14,8 +14,10 @@
 </p>
 
 <p>Pixel Lite Bootstrap 4 UI Kit is a beautifully crafted UI Kit based on Bootstrap 4 Components. This theme was built following Bootstrap's methodologies by the heart. It has 100 components, 3 plugins and 3 example pages.</p>
+<p>The Kit is Fully Responsive, has 100% valid W3C Pages and has great Google PageSpeed Insights scores.</p>
+<p>If you like the free kit, you can check out the PRO version of Pixel. It has more than 1000 components, 50+ sections and 25+ example pages to use for your awesome projects. Check it out here: <a href="https://themesberg.com/product/pixel-pro-premium-bootstrap-4-ui-kit">Pixel PRO - Premium Bootstrap 4 UI Kit.</a> </p>
 
-<h2>Check out the [Demo](https://themesberg.com/preview/pixel-lite/).</h2>
+<h2>Check out the <a href="https://themesberg.com/preview/pixel-lite/">Online Demo</a>.</h2>
 
 ## What's included
 
