@@ -9,7 +9,7 @@
 
 <p align="center">
     <a href="https://themesberg.com/preview/pixel-lite/" align="center" alt="Pixel Lite Free Bootstrap 4 UI Kit">
-        <img width="500" align="center" src="https://themesberg.com/preview/images/pixel-lite/github/pixel-lite-preview.jpg">
+        <img width="500" align="center" src="https://themesberg.com/previews/images/pixel-lite/github/pixel-lite-preview.jpg">
     </a>
 </p>
 
