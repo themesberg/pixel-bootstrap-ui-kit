@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://themesberg.com/product/pixel-lite-free-bootstrap-4-ui-kit" alt="Themesberg Logo">
-    <img height="40" src="https://themesberg.com/img/brand/themesberg.png">
+    <img height="50" src="https://themesberg.com/img/brand/themesberg.png">
   </a>
 </p>
 <h1 align="center">Pixel Lite - Free Bootstrap 4 UI Kit</h1>
@@ -9,7 +9,7 @@
 
 <p align="center">
     <a href="https://themesberg.com/preview/pixel-lite/" align="center" alt="Pixel Lite Free Bootstrap 4 UI Kit">
-        <img width="500" align="center" src="https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/pixel-lite-preview.png">
+        <img width="500" align="center" src="https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/pixel-lite-preview.jpg">
     </a>
 </p>
 
