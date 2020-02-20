@@ -1,0 +1,36 @@
+{
+    "name": "@themesberg/pixel-lite-bootstrap-ui-kit",
+    "version": "1.2",
+    "description": "Pixel Lite is a free Bootstrap UI Kit featuring over 100 components and 3 example pages. Crafted by Themesberg.com.",
+    "main": "index.js",
+    "directories": {
+      "doc": "docs"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "Bootstrap",
+      "Bootstrap 4",
+      "Components",
+      "Bootstrap components",
+      "UI",
+      "UX",
+      "UI Kit",
+      "User Interface",
+      "Bootstrap Timeline",
+      "Bootstrap Pricing card",
+      "Bootstrap Profile Card",
+      "Bootstrap slider",
+      "Bootstrap tag inputs",
+      "Themesberg"
+    ],
+    "author": "Themesberg",
+    "license": "MIT",
+    "dependencies": {
+      "bootstrap": "^4.3.1",
+      "jquery": "^3.4.1",
+      "popper": "^1.0.1"
+    }
+  }
+  
