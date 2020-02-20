@@ -1,6 +1,6 @@
 {
     "name": "@themesberg/pixel-lite-bootstrap-ui-kit",
-    "version": "1.2",
+    "version": "1.2.0",
     "description": "Pixel Lite is a free Bootstrap UI Kit featuring over 100 components and 3 example pages. Crafted by Themesberg.com.",
     "main": "index.js",
     "directories": {
