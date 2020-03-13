@@ -1,12 +1,11 @@
 <p align="center">
-  <a href="https://themesberg.com/product/pixel-lite-free-bootstrap-4-ui-kit" alt="Themesberg Logo">
+  <a href="https://themesberg.com" alt="Themesberg Logo">
     <img height="50" src="https://themesberg.com/img/brand/themesberg.png">
   </a>
 </p>
 <h1 align="center">Pixel Lite - Free Bootstrap 4 UI Kit</h1>
-<p>&nbsp;</p>
 <p align="center">
-    <a href="https://themesberg.com/preview/pixel-lite/" align="center" alt="Pixel Lite Free Bootstrap 4 UI Kit">
+    <a href="https://demo.themesberg.com/pixel-lite/index.html" align="center" alt="Pixel Lite Free Bootstrap 4 UI Kit">
         <img width="700" align="center" src="https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/pixel-lite-preview.jpg">
     </a>
 </p>
@@ -15,7 +14,10 @@
 <p>The Kit is Fully Responsive, has 100% valid W3C Pages and has great Google PageSpeed Insights scores.</p>
 <p>If you like the free kit, you can check out the PRO version of Pixel. It has more than 1000 components, 50+ sections and 25+ example pages to use for your awesome projects. Check it out here: <a href="https://themesberg.com/product/pixel-pro-premium-bootstrap-4-ui-kit">Pixel PRO - Premium Bootstrap 4 UI Kit.</a> </p>
 
-<h2>Check out the <a href="https://themesberg.com/preview/pixel-lite/">Online Demo</a>.</h2>
+## Useful links
+- <a href="https://demo.themesberg.com/pixel-lite/index.html">Online Demo</a>
+- <a href="https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit">Download</a>
+- <a href="https://demo.themesberg.com/pixel-lite/docs/introduction.html">Documentation</a>
 
 ## What's included
 
