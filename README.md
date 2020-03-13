@@ -6,7 +6,7 @@
 <h1 align="center">Pixel Lite - Free Bootstrap 4 UI Kit</h1>
 <p align="center">
     <a href="https://demo.themesberg.com/pixel-lite/index.html" align="center" alt="Pixel Lite Free Bootstrap 4 UI Kit">
-        <img width="700" align="center" src="https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/pixel-lite-preview.jpg">
+        <img width="600" align="center" src="https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/pixel-lite-preview.jpg">
     </a>
 </p>
 <p>&nbsp;</p>
