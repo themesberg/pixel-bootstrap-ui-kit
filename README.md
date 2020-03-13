@@ -4,6 +4,7 @@
   </a>
 </p>
 <h1 align="center">Pixel Lite - Free Bootstrap 4 UI Kit</h1>
+<p>&nbsp;</p>
 <p align="center">
     <a href="https://themesberg.com/preview/pixel-lite/" align="center" alt="Pixel Lite Free Bootstrap 4 UI Kit">
         <img width="700" align="center" src="https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/pixel-lite-preview.jpg">
