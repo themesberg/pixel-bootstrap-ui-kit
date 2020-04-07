@@ -592,7 +592,7 @@ $nav-pills-border-radius:           $border-radius;
 $nav-pills-link-hover-color:        $primary;
 $nav-pills-link-active-color:       $primary;
 $nav-pills-active-border-color:     $gray-300;
-$nav-pills-link-active-bg:          $white;
+$nav-pills-link-active-bg:          #f8f8f8;
 
 // Progress Bars
 $progress-xl-size: .8rem;
@@ -747,8 +747,8 @@ $pagination-border-color:           $gray-400;
 
 
 $pagination-hover-color:            $gray-800;
-$pagination-hover-bg:               $gray-300;
-$pagination-hover-border-color:     $gray-300;
+$pagination-hover-bg:               $light;
+$pagination-hover-border-color:     $light;
 
 $pagination-active-color:           $component-active-color;
 $pagination-active-bg:              $primary;

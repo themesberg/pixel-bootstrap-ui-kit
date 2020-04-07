@@ -4,6 +4,9 @@
 
 .accordion .card {
     margin-bottom: 1.5rem;
+    &:hover{
+        background-color: $soft;
+    }
 }
 
 .accordion-panel-header {

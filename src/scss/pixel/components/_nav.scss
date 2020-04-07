@@ -14,13 +14,6 @@
         }
     }
 
-    i{
-        position: relative;
-        &:hover{
-            color: $nav-link-hover-color;
-        }
-    }
-
     img{
         opacity: .5;
     }
@@ -59,6 +52,10 @@
 
         &.avatar-link{
             border:0;
+        }
+
+        &:hover{
+            background-color: $nav-pills-link-active-bg;
         }
     }
  
