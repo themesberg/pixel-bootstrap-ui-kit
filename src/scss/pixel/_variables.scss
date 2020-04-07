@@ -499,11 +499,12 @@ $custom-control-indicator-checked-disabled-bg:  rgba(theme-color("primary"), .7)
 $custom-control-indicator-border-width:         1px;
 
 $custom-control-indicator-disabled-bg:          $gray-200;
-$custom-control-label-disabled-color:           $gray-600;
+$custom-control-label-disabled-color:           $gray-700;
 
 $custom-checkbox-bg:                            $gray-400;
 $custom-checkbox-checked-bg:                    theme-color("primary");
 $custom-checkbox-disabled-checked-bg:           rgba(theme-color("primary"), .7); 
+$custom-checkbox-disabled-checked-color:        $gray-700;
 $custom-checkbox-indicator-border-radius:       $border-radius-sm;
 $custom-checkbox-indicator-border-width:        $border-width-md;
 $custom-checkbox-indicator-icon-checked:        $font-awesome-5  ;
