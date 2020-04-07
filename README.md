@@ -1,6 +1,6 @@
 # [Pixel Lite Bootstrap UI Kit](https://demo.themesberg.com/pixel-lite/)
 
-![alt text](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/pixel-lite-preview.jpg "Pixel Lite Bootstrap UI Kit")
+![Pixel Lite Bootstrap UI Kit Preview](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/pixel-lite-screenshot-1.jpg "Pixel Lite Bootstrap UI Kit")
 
 Pixel is a accessibility oriented, fully responsive, modern User Interface Kit that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs.
 
