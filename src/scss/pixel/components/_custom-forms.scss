@@ -5,7 +5,6 @@
 .custom-control-label {
     // Background-color and (when enabled) gradient
     &:before {
-        border: $custom-checkbox-indicator-border-width solid $custom-control-border-color;
         box-shadow: $custom-control-box-shadow;
         @if $enable-transitions {
             transition: $input-transition;

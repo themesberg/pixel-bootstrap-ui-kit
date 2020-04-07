@@ -140,7 +140,7 @@ textarea[resize="horizontal"] {
 
 .form-check.disabled .form-check-label,
 .form-check.disabled .form-check-label {
-    color: $gray-500;
+    color: $custom-checkbox-disabled-checked-color;
     cursor: not-allowed;
 }
 
@@ -159,7 +159,7 @@ textarea[resize="horizontal"] {
 }
 
 .form-check input[type="checkbox"]:disabled + .form-check-sign::after{
-    color:$custom-checkbox-disabled-checked-bg;
+    color:$custom-checkbox-disabled-checked-color;
 }
 
 .form-check input[type="checkbox"]+ .form-check-sign::after{
