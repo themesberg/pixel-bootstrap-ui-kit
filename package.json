@@ -1,7 +1,7 @@
 {
     "name": "pixel-ui-kit",
-    "version": "2.1.0",
-    "description": "A beautiful UI Kit for Bootstrap 4.",
+    "version": "3.0.0",
+    "description": "Accessibility oriented and open source Bootstrap UI Kit.",
     "main": "gulpfile.js",
     "author": "Themesberg",
     "keywords": [
@@ -10,13 +10,15 @@
         "html",
         "responsive",
         "uikit",
-        "bootstrap4"
+        "bootstrap",
+        "accessibility",
+        "open source"
     ],
-    "homepage": "https://themesberg.com/product/ui-kits/pixel-pro-premium-bootstrap-4-ui-kit",
+    "homepage": "https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit",
     "bugs": {
-        "email": "themesberg@gmail.com"
+        "email": "support@themesberg.com"
     },
-    "license": "Themesberg",
+    "license": "MIT License",
     "devDependencies": {
         "browser-sync": "2.26.7",
         "del": "4.1.1",
