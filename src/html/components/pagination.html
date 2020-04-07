@@ -1,0 +1,74 @@
+<!--
+
+=========================================================
+* Pixel Pro Bootstrap 4 UI Kit
+=========================================================
+
+* Product Page: https://themesberg.com/product/ui-kits/pixel-pro-premium-bootstrap-4-ui-kit
+* Copyright 2019 Themesberg (https://www.themesberg.com)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @@include('./_head.html', {
+        "path": "../..",
+        "title": "Pixel Components - Pagination"
+    })
+</head>
+
+<body>
+    @@include('./_navigation.html', {
+        "path": "../..",
+        "classes": "navbar-dark"
+    })
+    <main>
+
+        @@include('./_preloader.html', {
+            "path": "../.."
+        })
+        <!-- Hero -->
+        <div class="section-header pb-6 bg-primary text-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 text-center">
+                        <h1 class="display-3 mb-4">Pagination</h1>
+                        <p class="lead mb-5">Use Pixel's custom pagination styles to organize blog posts, cards or images.</p>
+                        <div class="alert alert-secondary align-items-center" role="alert">
+                            <span class="alert-inner--icon"><i class="fas fa-info-circle"></i></span>
+                            <a class="font-weight-bold" href="https://themesberg.com/docs/pixel-bootstrap/components/pagination/" target="_blank">See our Documentation</a> for a detailed technical explanation.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Hero -->
+        
+        @@include('./components/_pagination.html', {
+            "path": "../.."
+        })
+
+        @@include('./_free-vs-pro.html', {
+            "path": "../.."
+        })
+
+    </main>
+    
+    @@include('./_footer.html', {
+        "path": "../..",
+        "classes": "bg-primary text-white"
+    })
+
+    @@include('./_scripts.html', {
+        "path": "../.."
+    })
+</body>
+
+</html>

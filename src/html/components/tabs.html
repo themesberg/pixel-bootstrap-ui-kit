@@ -1,0 +1,75 @@
+<!--
+
+=========================================================
+* Pixel Pro Bootstrap 4 UI Kit
+=========================================================
+
+* Product Page: https://themesberg.com/product/ui-kits/pixel-pro-premium-bootstrap-4-ui-kit
+* Copyright 2019 Themesberg (https://www.themesberg.com)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @@include('./_head.html', {
+        "path": "../..",
+        "title": "Pixel Components - Tabs"
+    })
+</head>
+
+<body>
+    @@include('./_navigation.html', {
+        "path": "../..",
+        "classes": "navbar-dark"
+    })
+    <main>
+
+        @@include('./_preloader.html', {
+            "path": "../.."
+        })
+        
+        <!-- Hero -->
+        <div class="section-header pb-6 bg-primary text-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 text-center">
+                        <h1 class="display-3 mb-4">Tabs</h1>
+                        <p class="lead mb-5">Use the tab JavaScript plugin—include it individually or through the compiled bootstrap.js file—to extend our navigational tabs and pills to create tabbable panes of local content, even via dropdown menus.</p>
+                        <div class="alert alert-secondary align-items-center" role="alert">
+                            <span class="alert-inner--icon"><i class="fas fa-info-circle"></i></span>
+                            <a class="font-weight-bold" href="https://themesberg.com/docs/pixel-bootstrap/components/tabs/" target="_blank">See our Documentation</a> for a detailed technical explanation.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Hero -->
+        
+        @@include('./components/_tabs.html', {
+            "path": "../.."
+        })
+
+        @@include('./_free-vs-pro.html', {
+            "path": "../.."
+        })
+
+    </main>
+    
+    @@include('./_footer.html', {
+        "path": "../..",
+        "classes": "bg-primary text-white"
+    })
+
+    @@include('./_scripts.html', {
+        "path": "../.."
+    })
+</body>
+
+</html>

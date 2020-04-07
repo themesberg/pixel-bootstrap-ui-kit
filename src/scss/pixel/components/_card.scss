@@ -1,0 +1,108 @@
+/**
+ * = Cards
+ */
+
+.card-img,
+.card-img-top {
+    border-radius:0
+}
+
+.card-img,
+.card-img-bottom {
+    border-radius:0
+}
+
+
+// Card with blockquotes
+
+.card {
+    .card-blockquote {
+        position: relative;
+        padding: 2rem;
+
+        .svg-bg {
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 95px;
+            top: -94px;
+            left: 0;
+        }
+    }
+
+    .profile-thumbnail {
+        width: 10rem;
+        height: 10rem;
+        img{
+            border: $border-width-md solid;
+        }
+        &.small-thumbnail{
+            width: 8rem;
+            height: 8rem;
+        }
+    }
+
+    .profile-cover{
+        @include background-image(no-repeat, cover); 
+        height: 175px;
+    }
+
+    .card-footer{
+        .btn-block{
+            border-radius: 0;
+        }
+    }
+
+    .price-list{
+        .list-group-item{
+            i{
+                width: 20px;
+            }
+        }
+    }
+
+    &.rounded-right-0{
+        border-top-right-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+    }
+    &.rounded-left-0{
+        border-top-left-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
+    }
+}
+
+// Animated cards
+
+.card-lift-hover {
+    &:hover {
+        transform: translateY(-20px);
+        @include transition($transition-base);
+    }
+}
+
+        
+.page-preview {
+
+    display: block;
+    position: relative;
+
+    .show-on-hover {
+        position: absolute;
+        bottom: -25px;
+        background: rgba($dark, .85);
+        padding: 10px 0;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        width: calc(100% + 28px);
+        left: -14px;
+        opacity: 0;
+        @include transition(.2s);
+    }
+
+    &:hover {
+        .show-on-hover {
+            z-index: 99;
+            opacity: 1;
+        }
+    }
+}

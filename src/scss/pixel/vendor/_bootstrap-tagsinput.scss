@@ -1,0 +1,62 @@
+.bootstrap-tagsinput {
+	background-color: $input-bg;
+	border: $input-border-width solid $input-border-color;
+	display: inline-block;
+	padding: .5rem .5rem;
+	color: $white;
+	vertical-align: middle;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: $input-border-radius;
+	max-width: 100%;
+    cursor: text;
+    
+	input {
+		border: none;
+		box-shadow: none;
+		outline: none;
+		background-color: transparent;
+		padding: 0 6px;
+		margin: 0;
+		width: auto;
+		font-size: $font-size-xs;
+        max-width: inherit;
+        
+		&:focus {
+			border: none;
+			box-shadow: none;
+		}
+	}
+    
+	&.form-control {
+		input::-moz-placeholder {
+			color: $input-placeholder-color;
+			opacity: 1;
+		}
+		input::-webkit-input-placeholder {
+			color: $input-placeholder-color;
+		}
+		input:-ms-input-placeholder {
+			color: $input-placeholder-color;
+		}
+	}
+	
+	.tag {
+		background: $primary;
+		font-size: $font-size-xs;
+		padding: .15rem .5rem;
+		border-radius: $border-radius;
+	}
+    
+	[data-role="remove"] {
+		margin-left: 8px;
+		cursor: pointer;
+		color: rgba($white, 0.6);
+		&:after {
+			content: "x";
+			padding: 0 2px;
+		}
+		&:hover {
+			color: rgba($white, 1);
+		}
+	}
+}

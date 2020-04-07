@@ -1,0 +1,46 @@
+/**
+ * = List groups
+ */
+
+// Space list items
+.list-group-item{
+	background: transparent;
+}
+
+.list-group-space {
+    .list-group-item {
+		margin-bottom: 1.5rem;
+        @include border-radius($list-group-border-radius);
+    }
+}
+
+.list-group-img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    vertical-align: top;
+    margin: -.1rem 1.2rem 0 -.2rem;
+}
+
+
+
+//News list for widgets
+
+.news-list{
+	.row{
+		> [class*='col']{
+	  		padding: 0 $spacer/4;
+		}
+	}
+
+	> li{
+		&:not(:last-child){
+		  margin-bottom: .75rem;
+		}
+	}
+
+	img{
+		min-height: 100%;
+		object-fit: cover;
+	}
+}

@@ -1,0 +1,48 @@
+/*
+
+=========================================================
+* Pixel Pro Bootstrap 4 UI Kit
+=========================================================
+
+* Product Page: https://themesberg.com/product/ui-kits/pixel-pro-premium-bootstrap-4-ui-kit
+* Copyright 2019 Themesberg (https://www.themesberg.com)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sanchez:400,400i&display=swap');
+
+// Bootstrap mixins and functions
+@import "bootstrap/mixins";
+@import "bootstrap/functions";
+
+// Change variables here
+@import "pixel/variables";
+
+// Bootstrap
+@import "bootstrap/bootstrap";
+
+// Vendor
+@import "pixel/vendor";
+
+// Pixel mixins & functions
+@import "pixel/mixins";
+@import "pixel/functions";
+
+// Utilities
+@import "pixel/reboot";
+@import "pixel/utilities";
+
+// Layout
+@import "pixel/layout";
+
+// Components
+@import "pixel/components";
+
+// write your custom styles here!

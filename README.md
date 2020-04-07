@@ -1,126 +1,151 @@
-<p align="center">
-  <a href="https://themesberg.com/product/pixel-lite-free-bootstrap-4-ui-kit" alt="Themesberg Logo">
-    <img height="50" src="https://themesberg.com/img/brand/themesberg.png">
-  </a>
-</p>
-<h1 align="center">Pixel Lite - Free Bootstrap 4 UI Kit</h1>
+# [Pixel Lite Bootstrap UI Kit](https://demo.themesberg.com/pixel-lite/)
 
-<p align="center"><b>100+</b> Premium Bootstrap 4 Components, </b>3</b> Example Pages, Full Documentation, Fully Responsive, 100% Valid W3C HTML Files and made for <b>awesome developers</b> just like you. It's <strong>Free</strong>.</p>
+![alt text](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/pixel-lite-preview.jpg "Pixel Lite Bootstrap UI Kit")
 
-<p align="center">
-    <a href="https://themesberg.com/preview/pixel-lite/" align="center" alt="Pixel Lite Free Bootstrap 4 UI Kit">
-        <img width="500" align="center" src="https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/pixel-lite-preview.jpg">
-    </a>
-</p>
+Pixel is a accessibility oriented, fully responsive, modern User Interface Kit that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs.
 
-<p>Pixel Lite Bootstrap 4 UI Kit is a beautifully crafted UI Kit based on Bootstrap 4 Components. This theme was built following Bootstrap's methodologies by the heart. It has 100 components, 3 plugins and 3 example pages.</p>
-<p>The Kit is Fully Responsive, has 100% valid W3C Pages and has great Google PageSpeed Insights scores.</p>
-<p>If you like the free kit, you can check out the PRO version of Pixel. It has more than 1000 components, 50+ sections and 25+ example pages to use for your awesome projects. Check it out here: <a href="https://themesberg.com/product/pixel-pro-premium-bootstrap-4-ui-kit">Pixel PRO - Premium Bootstrap 4 UI Kit.</a> </p>
+**Premium components**
 
-<h2>Check out the <a href="https://themesberg.com/preview/pixel-lite/">Online Demo</a>.</h2>
+Pixel Lite is an premium extension of the famous Bootstrap CSS Framework featuring pricing cards, profile cards, timelines and many more. All components are created to comply as much as possible with the WCAG 2.1 standards.
 
-## What's included
+Check out [all components here](https://demo.themesberg.com/pixel-lite/html/components/all.html).
 
-Pixel Lite has the following folder structure:
+**4 Example Pages**
+
+Pixel Lite comes with 4 premium example pages that we created to show you the beautiful user interfaces that can be created.
+
+**Complete Documentation**
+
+Each component, plugin and the general workflow is well documented. Check out the [online documentation for Pixel](https://themesberg.com/docs/pixel-bootstrap/getting-started/overview).
+
+## Workflow
+
+This product is built using the following widely used technologies:
+
+- Most popular CSS Framework Bootstrap
+- Productive workflow tool Gulp
+- Awesome CSS preprocessor Sass
+
+## Table of Contents
+
+* [Demo](#demo)
+* [Quick Start](#quick-start)
+* [Documentation](#documentation)
+* [File Structure](#file-structure)
+* [Browser Support](#browser-support)
+* [Resources](#resources)
+* [Reporting Issues](#reporting-issues)
+* [Technical Support or Questions](#technical-support-or-questions)
+* [Licensing](#licensing)
+* [Useful Links](#useful-links)
+
+## Demo
+
+-   [Live Preview](https://demo.themesberg.com/pixel-lite/)
+-   [Product Page](https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit)
+
+## Quick start
+
+1. Download from [Themesberg](https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit)
+2. Download the project's zip
+3. Make sure you have Node locally installed.
+4. Download Gulp Command Line Interface to be able to use gulp in your Terminal.
+
+```
+npm install gulp-cli -g
+```
+
+5. After installing Gulp, run npm install in the main `pixel/` folder to download all the project dependencies. You'll find them in the `node_modules/` folder.
+
+```
+npm install
+```
+
+6. Run gulp in the `pixel/` folder to serve the project files using BrowserSync. Running gulp will compile the theme and open `/index.html` in your main browser.
+
+```
+gulp
+```
+
+While the gulp command is running, files in the `assets/scss/`, `assets/js/` and `components/` folders will be monitored for changes. Files from the `assets/scss/` folder will generate injected CSS.
+
+Hit `CTRL+C` to terminate the gulp command. This will stop the local server from running.
+
+## Theme without Sass, Gulp or Npm
+
+If you'd like to get a version of our theme without Sass, Gulp or Npm, we've got you covered. Run the following command:
+
+```
+gulp build:dev
+```
+
+This will generate a folder `html&css` which will have unminified CSS, Html and Javascript.
+
+## Minified version
+
+If you'd like to compile the code and get a minified version of the HTML and CSS just run the following Gulp command:
+
+```
+gulp build:dist
+```
+
+This will generate a folder `dist` which will have minified CSS, Html and Javascript.
+
+## Documentation
+The documentation for Pixel Bootstrap UI Kit is hosted on our [website](https://themesberg.com/docs/pixel-bootstrap/getting-started/overview).
+
+## File Structure
+Within the download you'll find the following directories and files:
+
+```
+Pixel Lite UI Kit
+/
 
 ```
 
-pixel-lite-ui-kit/
+## Browser Support
 
-├── css/
+At present, we officially aim to support the last two versions of the following browsers:
 
-│ ├── pixel.css
+<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
 
-├── docs/
+## Resources
+- Demo: <https://demo.themesberg.com/pixel-lite/index.html>
+- Download Page: <https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit>
+- Documentation: <https://themesberg.com/docs/pixel-bootstrap/getting-started/overview>
+- License Agreement: <https://themesberg.com/licensing>
+- Support: <https://themesberg.com/contact>
+- Issues: [Github Issues Page](https://github.com/themesberg/pixel-bootstrap-ui-kit/issues)
 
-├── html/
+## Reporting Issues
 
-│ ├── pages/
+We use GitHub Issues as the official bug tracker for Pixel Pro Bootstrap UI Kit. Here are some advices for our users that want to report an issue:
 
-│ │ ├── about-startup.html
+1. Make sure that you are using the latest version of Pixel Pro Bootstrap UI Kit. Check the CHANGELOG from your dashboard on our [website](https://themesberg.com).
+2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
+3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
-│ │ ├── contact.html
+## Technical Support or Questions
 
-│ │ ├── signin.html
+If you have questions or need help integrating the product please [contact us](https://themesberg.com/contact) instead of opening an issue.
 
-├── img/
+## Licensing
 
-├── js/
+- Copyright 2020 Themesberg (Crafty Dwarf LLC) (https://themesberg.com/)
+- Themesberg [license](https://themesberg.com/licensing)
 
-│ ├── pixel.js
+## Useful Links
 
-├── vendor/
+- [More themes](https://themesberg.com/themes) from Themesberg
+- [Free themes](https://themesberg.com/products/free-themes) from Themesberg
+- [Affiliate Program](https://themesberg.com/affiliate)
 
-├── index.html
+##### Social Media
 
-```
+Twitter: <https://twitter.com/themesberg>
 
-### Features
+Facebook: <https://www.facebook.com/themesberg/>
 
-- 100 Unique components
+Dribbble: <https://dribbble.com/themesberg>
 
-- 3 Example pages
-
-- Modern Design
-
-- Fully Responsive
-
-- Bootstrap 4
-
-- jQuery
-
-- Header
-
-- Quality code
-
-- Free Logo & Images
-
-- Font Awesome Icons
-
-- and many others..
-
-### Online documentation
-
-The documentation can be found at [themesberg.com](https://themesberg.com/preview/pixel-lite/docs/introduction.html).
-
-### Built by Themesberg
-
-Our social network profiles:
-
-- [Themesberg.com](https://themesberg.com)
-
-- [Twitter](https://twitter.com/themesberg)
-
-- [Facebook](https://www.facebook.com/themesberg)
-
-## Credits & Libraries
-
-- [Unsplash](https://unsplash.com/)
-
-* [Undraw.co](https://undraw.co/)
-
-- [Bootstrap](https://getbootstrap.com/)
-
-* [jQuery](https://jquery.com/)
-
-* [Bootstrap Tags Inputs](https://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/)
-
-- [Headroom.js](https://wicky.nillia.ms/headroom.js/)
-
-* [FontAwesome](https://fontawesome.com/)
-
-- [Google Fonts](https://fonts.google.com/)
-
-* [Popper.js](https://popper.js.org/)
-
-- [Prism.js](https://prismjs.com/)
-
-* [Waypoints](http://imakewebthings.com/waypoints/)
-
-- [SmoothScroll](https://github.com/cferdinandi/smooth-scroll)
-
-### Licensed under MIT
-
-Pixel Lite UI Kit is Open Source project and licensed under MIT for better Web.
-
-![MIT License](https://img.shields.io/cocoapods/l/AFNetworking.svg?style=for-the-badge)
+Instagram: <https://www.instagram.com/themesberg/>
