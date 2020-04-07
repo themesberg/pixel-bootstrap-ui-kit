@@ -16,7 +16,7 @@ Pixel Lite comes with 4 premium example pages that we created to show you the be
 
 **Complete Documentation**
 
-Each component, plugin and the general workflow is well documented. Check out the [online documentation for Pixel](https://themesberg.com/docs/pixel-bootstrap/getting-started/overview).
+Each component, plugin and the general workflow is well documented. Check out the [online documentation for Pixel](https://themesberg.com/docs/pixel-bootstrap/getting-started/overview/).
 
 ## Workflow
 
