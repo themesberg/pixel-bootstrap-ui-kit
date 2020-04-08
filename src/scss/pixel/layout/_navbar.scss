@@ -8,6 +8,10 @@
     width: 100%;
     z-index: 100;
 
+    .badge {
+        font-size: .7rem;
+    }
+
     .navbar-toggler-icon {
         background-image: $navbar-dark-toggler-icon-bg;
     }
