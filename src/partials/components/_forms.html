@@ -14,32 +14,32 @@
             <div class="col-lg-4 col-sm-6">
                 <!-- Form -->
                 <div class="form-group">
-                    <input type="text" placeholder="Default" class="form-control" />
+                    <input type="text" placeholder="Default" class="form-control" aria-label="Default text input" />
                 </div>
                 <!-- End of Form -->
                 <!-- Form -->
                 <div class="form-group">
                     <div class="input-group mb-4">
                         <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fas fa-search"></i></span>
+                            <span class="input-group-text"><span class="fas fa-search"></span></span>
                         </div>
-                        <input class="form-control" placeholder="Icon Left" type="text">
+                        <input class="form-control" placeholder="Icon Left" type="text" aria-label="Input with icon left">
                     </div>
                 </div>
                 <!-- End of Form -->
                 <!-- Form -->
                 <div class="form-group">
                     <div class="input-group mb-4">
-                        <input class="form-control" placeholder="Password" type="password">
+                        <input class="form-control" placeholder="Password" type="password" aria-label="Password">
                         <div class="input-group-append">
-                            <span class="input-group-text"><i class="fas fa-unlock-alt"></i></span>
+                            <span class="input-group-text"><span class="fas fa-unlock-alt"></span></span>
                         </div>
                     </div>
                 </div>
                 <!-- End of Form -->
                 <!-- Form -->
                 <div class="custom-file">
-                    <input type="file" class="custom-file-input" id="customFile">
+                    <input type="file" class="custom-file-input" id="customFile" aria-label="File upload">
                     <label class="custom-file-label" for="customFile">Choose file</label>
                 </div>
                 <!-- End of Form -->
@@ -47,15 +47,15 @@
             <div class="col-lg-4 col-sm-6">
                 <!-- Form -->
                 <div class="form-group mt-3 mt-sm-0">
-                    <input type="text" placeholder="Disabled" class="form-control" disabled />
+                    <input type="text" placeholder="Disabled" class="form-control" aria-label="Disabled input" disabled />
                 </div>
                 <!-- End of Form -->
                 <!-- Form -->
                 <div class="form-group">
                     <div class="input-group mb-4">
-                        <input class="form-control" placeholder="Icon Right" type="text">
+                        <input class="form-control" placeholder="Icon Right" aria-label="Input group" type="text">
                         <div class="input-group-append">
-                            <span class="input-group-text"><i class="fas fa-search"></i></span>
+                            <span class="input-group-text"><span class="fas fa-search"></span></span>
                         </div>
                     </div>
                 </div>
@@ -64,32 +64,32 @@
                 <div class="form-group">
                     <div class="input-group mb-4">
                         <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fas fa-unlock-alt"></i></span>
+                            <span class="input-group-text"><span class="fas fa-unlock-alt"></span></span>
                         </div>
-                        <input class="form-control" placeholder="Password" type="password">
+                        <input class="form-control" placeholder="Password" aria-label="Password" type="password">
                     </div>
                 </div>
                 <!-- End of Form -->
                 <!-- Form -->
                 <div class="form-group">
-                    <textarea class="form-control" placeholder="Enter your message..." id="exampleFormControlTextarea" rows="4"></textarea>
+                    <textarea class="form-control" placeholder="Enter your message..." id="exampleFormControlTextarea" aria-label="Textarea example" rows="4"></textarea>
                 </div>
                 <!-- End of Form -->
             </div>
             <div class="col-lg-4 col-sm-6">
                 <!-- Form -->
                 <div class="form-group has-success">
-                    <input type="text" placeholder="Success Input" class="form-control is-valid" />
+                    <input type="text" placeholder="Success Input" aria-label="Input with success state" class="form-control is-valid" />
                 </div>
                 <!-- End of Form -->
                 <!-- Form -->
                 <div class="form-group has-danger mb-4">
-                    <input type="email" placeholder="Error Input" class="form-control is-invalid" />
+                    <input type="email" placeholder="Error Input" aria-label="Input with error state" class="form-control is-invalid" />
                 </div>
                 <!-- End of Form -->
                 <!-- Form -->
                 <div class="form-group">
-                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" aria-label="Select country">
                         <option>Select your country</option>
                         <option>Italia</option>
                         <option>USA</option>
@@ -110,28 +110,28 @@
         <div class="row mt-5 mb-5">
             <div class="col-md-4">
                 <!-- Form -->
-                <small class="d-block font-weight-normal mb-3">Date of birth</small>
+                <h6 class="d-block font-weight-normal mb-3">Date of birth</h6>
                 <div class="form-group">
                     <div class="input-group input-group-border">
                         <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                            <span class="input-group-text"><span class="far fa-calendar-alt"></span></span>
                         </div>
-                        <input class="form-control datepicker" placeholder="Select date" type="text" value="06/20/2018">
+                        <input class="form-control datepicker" placeholder="Select date" type="text" aria-label="Birthday" value="06/20/2018">
                     </div>
                 </div>
                 <!-- End of Form -->
             </div>
             <div class="col-md-8 mt-4 mt-md-0">
                 <!-- Form -->
-                <small class="d-block font-weight-normal mb-3">Employment Period</small>
+                <h6 class="d-block font-weight-normal mb-3">Employment Period</h6>
                 <div class="input-daterange datepicker row align-items-center">
                     <div class="col">
                         <div class="form-group">
                             <div class="input-group input-group-border">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                                    <span class="input-group-text"><span class="far fa-calendar-alt"></span></span>
                                 </div>
-                                <input class="form-control" placeholder="Start date" type="text" value="06/18/2018">
+                                <input class="form-control" placeholder="Start date" aria-label="Start date" type="text" value="06/18/2018">
                             </div>
                         </div>
                     </div>
@@ -139,9 +139,9 @@
                         <div class="form-group">
                             <div class="input-group input-group-border">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                                    <span class="input-group-text"><span class="far fa-calendar-alt"></span></span>
                                 </div>
-                                <input class="form-control" placeholder="End date" type="text" value="06/22/2018">
+                                <input class="form-control" placeholder="End date" aria-label="End date" type="text" value="06/22/2018">
                             </div>
                         </div>
                     </div>
@@ -228,7 +228,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-6">
                 <div class="mb-3">
-                    <small class="font-weight-bold">Checkboxes</small>
+                    <h6 class="font-weight-bold">Checkboxes</h6>
                 </div>
                 <!-- Checkbox -->
                 <div class="form-check mb-3">
@@ -270,7 +270,7 @@
             <div class="col-lg-3 col-md-6">
                 <!-- Checkboxes -->
                 <div class="mb-3">
-                    <small class="font-weight-bold">Checkboxes Round</small>
+                    <h6 class="font-weight-bold">Checkboxes Round</h6>
                 </div>
                 <!-- Checkbox -->
                 <div class="form-check round-check mb-3">
@@ -312,7 +312,7 @@
             <div class="col-lg-3 col-sm-6 mt-4 mt-md-0">
                 <!-- Radio buttons -->
                 <div class="mb-3">
-                    <small class="font-weight-bold">Radios</small>
+                    <h6 class="font-weight-bold">Radios</h6>
                 </div>
                 <!-- Radio -->
                 <div class="form-check form-check-radio">
@@ -357,7 +357,7 @@
             </div>
             <div class="col-lg-3 col-sm-6 mt-4 mt-md-0">
                 <div class="mb-3">
-                    <small class="font-weight-bold">Switches</small>
+                    <h6 class="font-weight-bold">Switches</h6>
                 </div>
                 <div class="custom-control custom-switch">
                     <input type="checkbox" class="custom-control-input" id="customSwitch1">
@@ -370,10 +370,10 @@
             </div>
             <div class="col-lg-6 col-sm-6 mt-4">
                 <div class="mb-3">
-                    <small class="font-weight-bold">Tags Input</small>
+                    <h6 class="font-weight-bold">Tags Input</h6>
                 </div>
                 <!-- Tags Input -->
-                <input type="text" class="form-control" value="Bootstrap,Angular,Vue,Wordpress,React,Java,Php,Gulp" data-role="tagsinput" />
+                <input type="text" class="form-control" value="Bootstrap,Angular,Vue,Wordpress,React,Java,Php,Gulp" aria-label="Technologies" data-role="tagsinput" />
                 <!-- End of Tags Input -->
             </div>
         </div>
