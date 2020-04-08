@@ -257,7 +257,7 @@
             padding-bottom: $navbar-nav-link-padding-y;
             border-radius: $navbar-nav-link-border-radius;
 
-            i {
+            span {
                 margin-right: .3rem;
                 font-size: $font-size-xs;
             }
@@ -269,7 +269,7 @@
             font-size: 1rem;
             border-radius: $navbar-nav-link-border-radius;
 
-            i {
+            span {
                 margin-right: 0;
             }
         }

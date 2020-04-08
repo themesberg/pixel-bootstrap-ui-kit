@@ -31,19 +31,19 @@
 
 // Sizes
 .btn-xs {
-    &, i {
+    &, span {
         font-size: $font-size-xs !important;
     }
 }
 
 .btn-sm {
-    &, i {
+    &, span {
         font-size: $font-size-sm !important;
     }
 }
 
 .btn-md {
-    &, i {
+    &, span {
         font-size: $font-size-md !important;
     }
 }
