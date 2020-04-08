@@ -222,7 +222,7 @@ textarea[resize="horizontal"] {
 
 .form-check-radio input[type="radio"]:disabled + .form-check-sign::before,
 .form-check-radio input[type="radio"]:disabled + .form-check-sign::after {
-    color: $gray-500;
+    color: $gray-700;
 }
 
 //Round checkboxes 
