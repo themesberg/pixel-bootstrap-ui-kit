@@ -70,7 +70,7 @@
                 </div>
             </div>
         </div>
-        <section class="section section-lg pb-0">
+        <section id="features" class="section section-lg pb-0">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-4">
@@ -247,6 +247,18 @@
         <div class="section section-sm pb-0 mb-n4">
             <div class="container">
                 <div class="row justify-content-center">
+                    <h3 class="h4">Popovers</h3>
+                </div>
+            </div>
+        </div>
+
+        @@include('./components/_popovers.html', {
+            "path": "."
+        })
+
+        <div class="section section-sm pb-0 mb-n4">
+            <div class="container">
+                <div class="row justify-content-center">
                     <h3 class="h4">Progress bars</h3>
                 </div>
             </div>
@@ -333,7 +345,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center text-white">
-                        <h1 class="font-weight-light">Notable <span class="font-weight-bold">features</span></h1>
+                        <h2 class="h1 font-weight-light">Notable <span class="font-weight-bold">features</span></h2>
                         <p class="lead">You get all Bootstrap components fully customized. Besides, you receive numerous plugins out of the box and ready to use</p>
                     </div>
                 </div>
@@ -344,7 +356,7 @@
                             <div class="icon">
                                 <span class="fab fa-bootstrap"></span>
                             </div>
-                            <h5 class="my-3">Latest Bootstrap</h5>
+                            <h3 class="h5 my-3">Latest Bootstrap</h3>
                             <p>A responsive and mobile-first theme built with the world's most popular CSS framework</p>
                         </div>
                         <!-- End of Icon box -->
@@ -355,7 +367,7 @@
                             <div class="icon">
                                 <span class="fab fa-sass"></span>
                             </div>
-                            <h5 class="my-3">Build with Sass</h5>
+                            <h3 class="h5 my-3">Build with Sass</h3>
                             <p>Change one variable and the theme adapts. Colors, fonts, sizes, buttons... you name it
                             </p>
                         </div>
@@ -367,7 +379,7 @@
                             <div class="icon">
                                 <span class="fas fa-mobile-alt"></span>
                             </div>
-                            <h5 class="my-3">Responsive Design</h5>
+                            <h3 class="h5 my-3">Responsive Design</h3>
                             <p>Did you know 53% of the world web traffic is mobile? Pixel is fully responsive and mobile first</p>
                         </div>
                         <!-- End of Icon box -->
@@ -378,7 +390,7 @@
                             <div class="icon">
                                 <span class="fas fa-puzzle-piece"></span>
                             </div>
-                            <h5 class="my-3">Modular approach</h5>
+                            <h3 class="h5 my-3">Modular approach</h3>
                             <p>Nicely customized components that can be reused anytime and anywhere in your project</p>
                         </div>
                         <!-- End of Icon box -->
@@ -389,7 +401,7 @@
                             <div class="icon">
                                 <span class="fab fa-gulp"></span>
                             </div>
-                            <h5 class="my-3">Gulp & BrowserSync</h5>
+                            <h3 class="h5 my-3">Gulp & BrowserSync</h3>
                             <p>With our custom Gulp commands & BrowserSync we offer a seemless and fast workflow for your project</p>
                         </div>
                         <!-- End of Icon box -->
@@ -400,7 +412,7 @@
                             <div class="icon">
                                 <span class="fas fa-file-alt"></span>
                             </div>
-                            <h5 class="my-3">Well documented</h5>
+                            <h3 class="h5 my-3">Well documented</h3>
                             <p>Our kit is delivered with very detailed documentation, describing all components, styles and usages</p>
                         </div>
                         <!-- End of Icon box -->
@@ -411,7 +423,7 @@
                             <div class="icon">
                                 <span class="fas fa-tachometer-alt"></span>
                             </div>
-                            <h5 class="my-3">Google PageSpeed</h5>
+                            <h3 class="h5 my-3">Google PageSpeed</h3>
                             <p>Pixel has 80+ scores on Google PageSpeed Insights to offer you and your clients a fast website
                             </p>
                         </div>
@@ -423,7 +435,7 @@
                             <div class="icon">
                                 <span class="fas fa-image"></span>
                             </div>
-                            <h5 class="my-3">SVG illustrations</h5>
+                            <h3 class="h5 my-3">SVG illustrations</h3>
                             <p>Photography and Illustration SVGs are included in the download package and are free to use
                             </p>
                         </div>
@@ -435,7 +447,7 @@
                             <div class="icon">
                                 <img class="navbar-brand-dark" style="height: 37px;" src="./assets/img/brand/light.svg" alt="Pixel logo">
                             </div>
-                            <h5 class="my-3">Every pixel matters</h5>
+                            <h3 class="h5 my-3">Every pixel matters</h3>
                             <p>We crafted each component with great care so that no rouge pixel is left behind</p>
                         </div>
                         <!-- End of Icon box -->
@@ -454,7 +466,7 @@
                 <div class="row d-flex align-items-center">
                     <div class="col-12 col-lg-6 mb-4">
                         <div class="d-none d-lg-block mt-5">
-                            <h4>You need only HTML, CSS and Javascript?</h4>
+                            <h3 class="h4">You need only HTML, CSS and Javascript?</h3>
                             <p class="lead mb-4">Don't worry, we got you covered. We have a folder called <code class="text-danger">html&css</code> which includes only the basic HTML5, CSS3 and Javascript technologies.</p>
                             <a href="https://themesberg.com/docs/pixel-bootstrap/getting-started/file-structure/" target="_blank" class="btn btn-md btn-secondary animate-up-2"><span class="fas fa-book mr-2"></span> Docs File Structure</a>
                         </div>
@@ -484,7 +496,7 @@
                         </ul>
                     </div>
                     <div class="col-12 mt-5 d-lg-none">
-                        <h5>You need only HTML, CSS and Javascript?</h5>
+                        <h4 class="h5">You need only HTML, CSS and Javascript?</h4>
                         <p>Don't worry, we got you covered. We have a folder called <code class="text-danger">html&css</code> which includes only the basic HTML5, CSS3 and Javascript technologies.</p>
                     </div>
                 </div>
@@ -494,8 +506,7 @@
             <div class="container">
                 <div class="row justify-content-center text-center text-white">
                     <div class="col-lg-10 col-xl-12">
-                        <h1 class="font-weight-light mb-4">WCAG 2.1 accessible <span class="font-weight-bold">color scheme</span>
-                        </h1>
+                        <h2 class="h1 font-weight-light mb-4">WCAG 2.1 accessible <span class="font-weight-bold">color scheme</span></h2>
                         <p class="lead">
                             We've enhanced Bootstrap’s color settings <br> to comply with the latest accessibility standards
                         </p>
@@ -506,7 +517,7 @@
                         <div class="card shadow-soft border-soft bg-soft p-5 text-center mb-4">
                             <div class="color-shape rounded bg-primary m-auto"></div>
                             <div class="mt-4">
-                                <h6 class="text-dark">Primary:</h6>
+                                <h3 class="h6 text-dark">Primary:</h3>
                                 <span class="font-weight-bold text-primary">#174F84</span>
                             </div>
                         </div>
@@ -515,7 +526,7 @@
                         <div class="card shadow-soft border-soft bg-soft p-5 text-center mb-4">
                             <div class="color-shape rounded bg-secondary m-auto"></div>
                             <div class="mt-4">
-                                <h6 class="text-dark">Secondary:</h6>
+                                <h3 class="h6 text-dark">Secondary:</h3>
                                 <span class="font-weight-bold text-secondary">#10AB7C</span>
                             </div>
                         </div>
@@ -524,7 +535,7 @@
                         <div class="card shadow-soft border-dark bg-dark p-5 text-center mb-4">
                             <div class="color-shape rounded bg-tertiary m-auto"></div>
                             <div class="mt-4">
-                                <h6 class="text-white">Tertiary:</h6>
+                                <h3 class="h6 text-white">Tertiary:</h3>
                                 <span class="font-weight-bold text-white">#FF7F66</span>
                             </div>
                         </div>
@@ -533,7 +544,7 @@
                         <div class="card shadow-soft border-dark bg-dark p-5 text-center mb-4">
                             <div class="color-shape rounded bg-info m-auto"></div>
                             <div class="mt-4">
-                                <h6 class="text-white">Info:</h6>
+                                <h3 class="h6 text-white">Info:</h3>
                                 <span class="font-weight-bold text-white">#1E90FF</span>
                             </div>
                         </div>
@@ -542,7 +553,7 @@
                         <div class="card shadow-soft border-dark bg-dark p-5 text-center mb-4">
                             <div class="color-shape rounded bg-warning m-auto"></div>
                             <div class="mt-4">
-                                <h6 class="text-white">Warning:</h6>
+                                <h3 class="h6 text-white">Warning:</h3>
                                 <span class="font-weight-bold text-white">#F5B759</span>
                             </div>
                         </div>
@@ -551,7 +562,7 @@
                         <div class="card shadow-soft border-dark bg-dark p-5 text-center mb-4">
                             <div class="color-shape rounded bg-success m-auto"></div>
                             <div class="mt-4">
-                                <h6 class="text-white">Success:</h6>
+                                <h3 class="h6 text-white">Success:</h3>
                                 <span class="font-weight-bold text-white">#00BF9A</span>
                             </div>
                         </div>
@@ -560,7 +571,7 @@
                         <div class="card shadow-soft border-dark bg-dark p-5 text-center mb-4">
                             <div class="color-shape rounded bg-danger m-auto"></div>
                             <div class="mt-4">
-                                <h6 class="text-white">Danger:</h6>
+                                <h3 class="h6 text-white">Danger:</h3>
                                 <span class="font-weight-bold text-white">#FA5252</span>
                             </div>
                         </div>
@@ -569,7 +580,7 @@
                         <div class="card shadow-soft border-dark bg-white p-5 text-center mb-4">
                             <div class="color-shape rounded bg-dark m-auto"></div>
                             <div class="mt-4">
-                                <h6>Dark:</h6>
+                                <h3 class="h6">Dark:</h3>
                                 <span class="font-weight-bold text-dark">#2A354F</span>
                             </div>
                         </div>
@@ -578,7 +589,7 @@
                         <div class="card shadow-soft border-dark bg-dark p-5 text-center mb-4">
                             <div class="color-shape rounded bg-light m-auto"></div>
                             <div class="mt-4">
-                                <h6 class="text-white">Light:</h6>
+                                <h3 class="h6 text-white">Light:</h3>
                                 <span class="font-weight-bold text-light">#DDE1ED</span>
                             </div>
                         </div>
@@ -587,7 +598,7 @@
                         <div class="card shadow-soft border-dark bg-dark p-5 text-center mb-4">
                             <div class="color-shape rounded bg-soft m-auto"></div>
                             <div class="mt-4">
-                                <h6 class="text-white">Soft:</h6>
+                                <h3 class="h6 text-white">Soft:</h3>
                                 <span class="font-weight-bold text-light">#EFF2F5</span>
                             </div>
                         </div>

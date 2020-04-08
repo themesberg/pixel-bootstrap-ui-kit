@@ -38,7 +38,7 @@
     &::before{
         content: '\f060';
         font-family: $font-awesome-5;
-        font-size: $font-size-xxl;
+        font-size: 3rem;
     }
 }
 
@@ -47,6 +47,6 @@
     &:before{
         font-family: $font-awesome-5;
         content: "\f061";
-        font-size: $font-size-xxl;
+        font-size: 3rem;
     }
 }

@@ -334,7 +334,9 @@ $icon-size-xs:          1.25rem;
 $icon-size-sm:          1.5rem;   
 $icon-size-xl:          3rem;
 
+//Bootstrap Carousel
 
+$carousel-control-opacity: 1;
 
 // Tables
 
@@ -715,8 +717,8 @@ $popover-arrow-outer-color:         transparent;
 
 // Badges
 
-$badge-font-size:                   66%;
-$badge-font-weight:                 $font-weight-bolder;
+$badge-font-size:                   .875rem;
+$badge-font-weight:                 $font-weight-normal;
 $badge-padding-y:                   .1rem;
 $badge-padding-x:                   .4rem;
 
