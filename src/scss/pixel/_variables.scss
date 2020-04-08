@@ -13,27 +13,27 @@ $secondary:     #1c2540;
 $tertiary:      #1D58A5;
 
 // Generic colors
-$blue:    #007bff;
+$blue:    #0056B3;
 $indigo:  #6610f2;
 $purple:  #6f42c1;
 $pink:    #e83e8c;
-$red:     #dc3545;
+$red:     #A91E2C;
 $orange:  #fd7e14;
-$yellow:  #ffc107;
-$green:   #28a77d;
-$teal:    #20c997;
+$yellow:  #F0B400;
+$green:   #18634B;
+$teal:    #0056B3;
 $cyan:    #17a2b8;
 
 // Shades of grey
 $white:    #ffffff;
-$gray-100: #f1f1f1;
+$gray-100: #ffffff;
 $gray-200: #fafbfe;
 $gray-300: #FAFAFB;
 $gray-400: #e6e7e8;
 $gray-500: #B7C3D2;
 $gray-600: #93a5be;   
-$gray-700: #66799e;   
-$gray-800: #50537C;   
+$gray-700: #52547a;   
+$gray-800: #4E5079;   
 $gray-900: #424767;
 $dark    : #1c2540;
 $black   : #111111;
@@ -67,7 +67,7 @@ $dark:          $dark;
 $facebook:      #3b5999;
 $twitter:       #1da1f2;
 $google:        #DB4337;
-$instagram:     #e4405f;
+$github:        #24292E;
 $pinterest:     #bd081c;
 
 // Theme colors
@@ -105,7 +105,7 @@ $brand-colors: map-merge((
   "facebook":     $facebook,
   "twitter":      $twitter,
   "google":       $google,
-  "instagram":    $instagram,
+  "github":       $github,
   "pinterest":    $pinterest,
 ), $brand-colors);
 
@@ -295,7 +295,7 @@ $lead-font-weight:            300;
 
 $small-font-size:             80%;
 
-$text-muted:                  $gray-600;
+$text-muted:                  $gray-800;
 
 $blockquote-small-color:      $gray-600;
 $blockquote-font-size:        ($font-size-base * 1.25);
@@ -349,7 +349,7 @@ $table-active-bg:             $table-hover-bg;
 $table-border-width:          $border-width;
 $table-border-color:          $light;
 
-$table-head-bg:               $gray-200;
+$table-head-bg:               $gray-100;
 $table-head-color:            $gray-700;
 
 $table-dark-bg:               $secondary;
@@ -364,10 +364,6 @@ $table-dark-color:            $white;
 $input-btn-padding-y:         .55rem;
 $input-btn-padding-x:         .75rem;
 $input-btn-line-height:       1.5;
-
-$input-btn-focus-width:       0;
-$input-btn-focus-color:       rgba($component-active-bg, 1);
-$input-btn-focus-box-shadow:  none;
 
 $input-btn-padding-y-sm:      .375rem;
 $input-btn-padding-x-sm:      .75rem;
@@ -443,7 +439,7 @@ $shadow-success:                        .2rem .2rem 0 rgba($success,.5);
 $input-box-shadow:                      0 4px 30px rgba(0, 0, 0, 0.05);
 
 $input-focus-bg:                        $white;
-$input-focus-border-color:              theme-color("light");
+$input-focus-border-color:              theme-color("primary");
 $input-focus-color:                     $input-color;
 $input-focus-width:                     0;
 $input-focus-box-shadow:                none; //0 1px 3px 0 $gray-500;
@@ -466,7 +462,7 @@ $input-group-addon-border-color:        $input-border-color;
 
 $input-group-addon-focus-color:               $input-focus-color;
 $input-group-addon-focus-bg:                  $input-focus-bg;
-$input-group-addon-focus-border-color:        $gray-200;
+$input-group-addon-focus-border-color:        $primary;
 
 // Custom forms
 
@@ -498,12 +494,12 @@ $custom-control-indicator-checked-disabled-bg:  rgba(theme-color("primary"), .7)
 $custom-control-indicator-border-width:         1px;
 
 $custom-control-indicator-disabled-bg:          $gray-200;
-$custom-control-label-disabled-color:           $gray-700;
+$custom-control-label-disabled-color:           $gray-800;
 
 $custom-checkbox-bg:                            $gray-400;
 $custom-checkbox-checked-bg:                    theme-color("primary");
 $custom-checkbox-disabled-checked-bg:           rgba(theme-color("primary"), .7); 
-$custom-checkbox-disabled-checked-color:        $gray-700;
+$custom-checkbox-disabled-checked-color:        $gray-800;
 $custom-checkbox-indicator-border-radius:       $border-radius-sm;
 $custom-checkbox-indicator-border-width:        $border-width-md;
 $custom-checkbox-indicator-icon-checked:        $font-awesome-5  ;
@@ -743,7 +739,7 @@ $badge-circle-size:                 2rem;
 $pagination-color:                  $gray-800;
 $pagination-bg:                     $white ;
 $pagination-border-width:           $border-width;
-$pagination-border-color:           $gray-400;
+$pagination-border-color:           $light;
 
 
 $pagination-hover-color:            $gray-800;
@@ -755,7 +751,7 @@ $pagination-active-bg:              $primary;
 $pagination-active-border-color:    $pagination-active-bg;
 $pagination-active-box-shadow:      $btn-hover-box-shadow;
 
-$pagination-disabled-color:         $gray-600;
+$pagination-disabled-color:         $gray-800;
 $pagination-disabled-bg:            $white;
 $pagination-disabled-border-color:  $gray-300;
 
@@ -769,7 +765,7 @@ $card-border-width:                 $border-width;
 $card-border-radius:                $border-radius;
 $card-border-color:                 rgba($gray-100, .05);
 $card-inner-border-radius:          calc(#{$card-border-radius} - #{$card-border-width});
-$card-cap-bg:                       $gray-100;
+$card-cap-bg:                       $white;
 $card-bg:                           $white;
 $card-opacity:                      1;
 
