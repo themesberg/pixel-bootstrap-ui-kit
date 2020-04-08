@@ -18,13 +18,13 @@
     .icon {
         color: $secondary;
         transition: $transition-base;
-        i {
+        span {
             font-size: $font-size-sm;
         }
     }
     .icon-title {
         margin-right: 1rem;
-        i {
+        span {
             margin-right: 1rem;
         }
 

@@ -8,24 +8,24 @@
 	@include align-items(center);
 	@include justify-content(center);
 
-	i, svg {
+	span, svg {
 		font-size: $icon-size;
 	}
 
 	&.icon-xs{
-		i, svg {
+		span, svg {
 			font-size: $icon-size-xs;
 		}
 	}
 
 	&.icon-sm{
-		i, svg {
+		span, svg {
 			font-size: $icon-size-sm;
 		}
 	}
 
 	&.icon-lg{
-		i, svg {
+		span, svg {
 			font-size: $icon-size-xl;
 		}
 	}
@@ -40,14 +40,14 @@
 	justify-content: center;
 	@include border-radius($border-radius);
 
-	i, svg {
+	span, svg {
 		font-size: $icon-size;
 	}
 
 	&.icon-sm {
 		width: $icon-shape-sm;
 		height: $icon-shape-sm;
-		i, svg {
+		span, svg {
 			font-size: $icon-size-sm;
 		}
 	}
@@ -55,7 +55,7 @@
 	&.icon-lg{
 		width: $icon-shape-lg;
 		height: $icon-shape-lg;
-		i, svg {
+		span, svg {
 			font-size: $icon-size-xl;
 		}
 	}
@@ -76,7 +76,7 @@
 		@include icon-shape-variant(theme-color($color));
 	}
 	.icon-#{$color} {
-		i{
+		span{
 			color:$value;
 		}
 	}
