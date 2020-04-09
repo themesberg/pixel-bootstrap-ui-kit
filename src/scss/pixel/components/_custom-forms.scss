@@ -29,26 +29,12 @@
 
 // Custom File Input
 
-.custom-file-label{
-    border: $custom-control-border-width solid $custom-control-border-color;
-    font-size: $input-font-size;
-    color:$input-placeholder-color;
+.custom-file-label {
+    background-color: $custom-file-bg;
+  
     &::after {
-        height: 100%;
-        background-color: $primary;
-        color:$white;
-        border:0;
-    }
-}
-
-.custom-file-input{
-    &:not(:disabled):hover {
-        cursor: pointer;
-    
-        & ~ .custom-file-label,
-        & ~ .custom-file-label:before {
-          border-color: $gray-300;
-        }
+      height: $custom-file-height-inner;
+      background-color: #f3f3f5;
     }
 }
 
