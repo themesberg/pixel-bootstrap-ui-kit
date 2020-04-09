@@ -22,6 +22,7 @@ a, .text-action {
 	&:hover{
 		color: $link-hover-color;
 		cursor: pointer;
+		text-decoration: underline;
 	}
 }
 
@@ -51,7 +52,7 @@ article {
 
 		&:hover {
 			color: $tertiary;
-			text-decoration: none;
+			text-decoration: underline;
 		}
 	}
 	
