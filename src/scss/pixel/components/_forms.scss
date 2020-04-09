@@ -131,11 +131,11 @@ textarea[resize="horizontal"] {
     top: 0px;
     text-align: center;
     opacity: 0;
-    color: $primary;
+    color: $white;
     font-weight: 900;
     border: 0;
     background-color: inherit;
-    border:$border-width solid $light;
+    border:$border-width solid $primary;
 }
 
 .form-check.disabled .form-check-label,
@@ -151,7 +151,7 @@ textarea[resize="horizontal"] {
     visibility: hidden;
 }
 .form-check input[type="checkbox"]:checked + .form-check-sign::after{
-    background-color:$white;
+    background-color:$primary;
     opacity: 1;
     font-size: .625rem;
     margin-top: 0;
@@ -159,7 +159,7 @@ textarea[resize="horizontal"] {
 }
 
 .form-check input[type="checkbox"]:disabled + .form-check-sign::after{
-    color:$custom-checkbox-disabled-checked-color;
+    color:$gray-500;
 }
 
 .form-check input[type="checkbox"]+ .form-check-sign::after{
@@ -233,4 +233,13 @@ textarea[resize="horizontal"] {
     }
 }
 
+
+.focused{
+	.input-group-text{
+		border-color:$primary;
+	}
+	.form-control {
+		border-color:$primary;
+	}
+}
 

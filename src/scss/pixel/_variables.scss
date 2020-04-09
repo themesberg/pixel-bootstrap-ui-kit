@@ -402,7 +402,7 @@ $btn-letter-spacing:          .025em;
 $btn-box-shadow:              $box-shadow-sm;
 $btn-hover-box-shadow:        $box-shadow-sm;
 $btn-focus-box-shadow:        $btn-hover-box-shadow;
-$btn-focus-width:             $border-width;
+$btn-focus-width:             .25rem;
 
 $btn-active-box-shadow:       none;
 
@@ -513,7 +513,14 @@ $custom-toggle-disabled-bg:                     $gray-200;
 $custom-toggle-disabled-checked-bg:             rgba(theme-color("primary"), .7);
 $custom-toggle-border-radius:                   .8rem;
 
+$custom-file-height-inner:                      add($input-line-height * .95em, $input-padding-y * 2);
+$custom-file-line-height:                       1.4;
+
+
+
 $custom-switch-indicator-size:                  calc(#{$custom-control-indicator-size} - #{$custom-control-indicator-border-width * 4});
+
+$form-check-focus-shadow:                        0 0 0 0.2rem rgba(69, 77, 103, 0.5);
 
 // Form validation
 
@@ -541,6 +548,7 @@ $noui-target-box-shadow:          inset $box-shadow-sm;
 $noui-box-shadow:                 $box-shadow-sm;         
 $noui-slider-connect-bg:          $primary;
 $noui-slider-connect-disabled-bg: $gray-200;
+$noui-handle-active-shadow:       0 0 0 0.2rem rgba(69, 77, 103, 0.5);
 $noui-handle-width:               15px;
 $noui-handle-bg:                  theme-color("primary");
 $noui-handle-border:              0;
