@@ -75,34 +75,34 @@ textarea[resize="horizontal"] {
 .form-check{
     margin-top: .5rem;
     padding-left: 0;
-    .form-check-label{
-        display: inline-block;
-        position: relative;
-        padding-left: 1.75rem;
-        font-weight: $font-weight-normal;
-        line-height: 16px;
-        margin-bottom: 0;
-        @include transition($transition-base);
-    
-        &:hover {
-            cursor: pointer;
-        }
-
-    }    
 }
 
+.form-check .form-check-label{
+    display: inline-block;
+    position: relative;
+    padding-left: 1.375rem;
+    font-weight: $font-weight-normal;
+    line-height: 16px;
+    margin-bottom: 0;
+    @include transition($transition-base);
+    color: $gray;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
 
 .radio .form-check-sign{
     padding-left: 28px;
 }
 
-.form-check-radio.form-check-inline .form-check-label {
+.form-check input[type="radio"] +.form-check-inline .form-check-label {
     padding-left: 5px;
     margin-right: 10px;
 }
 
-.form-check .form-check-sign::before,
-.form-check .form-check-sign::after{
+.form-check .form-check-label::before,
+.form-check .form-check-label::after{
     content: " ";
     display: inline-block;
     position: absolute;
@@ -110,14 +110,18 @@ textarea[resize="horizontal"] {
     height: 15px;
     left: 0;
     top: 0;
-    background-color: $white;
-    border:$border-width solid $light;
-    border-radius:$custom-checkbox-indicator-border-radius;
+    background-color: $custom-checkbox-bg;
+    border: 1px solid $gray-500;
     @include transition($transition-base);
+    @include border-radius($custom-checkbox-indicator-border-radius);
 
     &:hover {
         cursor: pointer;
     }
+}
+
+.form-check .form-check-sign-white:before {
+    background-color: $white;
 }
 
 .form-check input[type="checkbox"]:checked + .form-check-sign::before,
@@ -125,62 +129,61 @@ textarea[resize="horizontal"] {
     border: none;
 }
 
-.form-check .form-check-sign::after{
+.form-check .form-check-label::after{
     content: "\f00c";
     font-family: 'Font Awesome 5 Free';
     top: 0px;
     text-align: center;
     opacity: 0;
-    color: $white;
+    color: $primary;
     font-weight: 900;
     border: 0;
     background-color: inherit;
-    border:$border-width solid $primary;
 }
 
 .form-check.disabled .form-check-label,
 .form-check.disabled .form-check-label {
-    color: $custom-checkbox-disabled-checked-color;
+    color: $gray-500;
     cursor: not-allowed;
 }
 
 .form-check input[type="checkbox"],
-.radio input[type="radio"]{
+.form-check input[type="radio"]{
     opacity: 0;
     position: absolute;
     visibility: hidden;
 }
-.form-check input[type="checkbox"]:checked + .form-check-sign::after{
-    background-color:$primary;
+.form-check input[type="checkbox"]:checked + .form-check-label::after{
+    background-color:$white;
     opacity: 1;
     font-size: .625rem;
     margin-top: 0;
-    line-height: 1.3;
+    line-height: 1.6;
 }
 
-.form-check input[type="checkbox"]:disabled + .form-check-sign::after{
-    color:$gray-500;
+.form-check input[type="checkbox"]:disabled + .form-check-label::after{
+    color:$custom-checkbox-disabled-checked-bg;
 }
 
-.form-check input[type="checkbox"]+ .form-check-sign::after{
+.form-check input[type="checkbox"]+ .form-check-label::after{
     opacity: 0;
 }
 
-.form-control input[type="checkbox"]:disabled + .form-check-sign::before,
-.checkbox input[type="checkbox"]:disabled + .form-check-sign::after{
+.form-control input[type="checkbox"]:disabled + .form-check-label::before,
+.checkbox input[type="checkbox"]:disabled + .form-check-label::after{
     cursor: not-allowed;
 }
 
-.form-check input[type="checkbox"]:disabled + .form-check-sign,
-.form-check input[type="radio"]:disabled + .form-check-sign{
+.form-check input[type="checkbox"]:disabled + .form-check-label,
+.form-check input[type="radio"]:disabled + .form-check-label{
     pointer-events: none;
 }
 
-.form-check-radio .form-check-label{
+.form-check input[type="radio"] + .form-check-label{
     padding-top: 3px;
 }
-.form-check-radio .form-check-sign::before,
-.form-check-radio .form-check-sign::after{
+.form-check input[type="radio"] + .form-check-label::before,
+.form-check input[type="radio"] + .form-check-label::after{
     content: " ";
     width: 18px;
     height: 18px;
@@ -193,11 +196,26 @@ textarea[resize="horizontal"] {
     @include transition(opacity .3s linear);
 }
 
-.form-check-radio input[type="radio"] + .form-check-sign:after,
-.form-check-radio input[type="radio"] {
+.form-check input[type="radio"] + .form-check-label::before,
+.form-check input[type="radio"] + .form-check-label::after{
+    content: " ";
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 3px;
+    padding: 1px;
+    @include transition(opacity .3s linear);
+}
+
+.form-check input[type="radio"] + .form-check-label:after,
+.form-check input[type="radio"] {
     opacity: 0;
 }
-.form-check-radio input[type="radio"]:checked + .form-check-sign::after {
+
+.form-check input[type="radio"]:checked + .form-check-label::after {
     width: 8px;
     height: 8px;
     top: 8px;
@@ -207,22 +225,18 @@ textarea[resize="horizontal"] {
     opacity: 1;
 }
 
-.form-check-radio input[type="radio"]:checked + .form-check-sign::before {
+.form-check input[type="radio"]:checked + .form-check-label::before {
     background-color: $custom-checkbox-checked-bg;
 }
 
 
-.form-check-radio input[type="radio"]:checked + .form-check-sign::after{
-    opacity: 1;
-}
-
-.form-check-radio input[type="radio"]:disabled + .form-check-sign::before {
+.form-check input[type="radio"]:disabled + .form-check-label::before {
     color: $custom-checkbox-disabled-checked-bg;
 }
 
-.form-check-radio input[type="radio"]:disabled + .form-check-sign::before,
-.form-check-radio input[type="radio"]:disabled + .form-check-sign::after {
-    color: $gray-700;
+.form-check input[type="radio"]:disabled + .form-check-label::before,
+.form-check input[type="radio"]:disabled + .form-check-label::after {
+    color: $gray-500;
 }
 
 //Round checkboxes 
@@ -236,9 +250,6 @@ textarea[resize="horizontal"] {
 
 .focused{
 	.input-group-text{
-		border-color:$primary;
-	}
-	.form-control {
 		border-color:$primary;
 	}
 }

@@ -9,16 +9,13 @@
 	.form-control {
 		box-shadow: none;
 
-		&:not(:first-child) {
-		    	border-left: 0;
-		    	padding-left: 0;
-		}
-		&:not(:last-child) {
-			border-right: 0;
-			padding-right: 0;
-		}
 		&:focus {
 			box-shadow: none;
+		}
+
+		&.is-invalid{
+			border-top-right-radius: $border-radius;
+    		border-bottom-right-radius: $border-radius;
 		}
 	}
 }

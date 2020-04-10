@@ -42,12 +42,10 @@
 //Select
 .custom-select{
     font-size: $input-btn-font-size;
-    box-shadow: $input-box-shadow;
-    border:0;
+    box-shadow:none;
 
     &.custom-select-shadow {
         box-shadow: $input-box-shadow;
-        border: 0;
         transition: box-shadow .15s ease;
     
         &:focus {
