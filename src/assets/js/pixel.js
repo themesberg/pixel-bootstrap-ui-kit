@@ -1,7 +1,7 @@
 /*
 
 =========================================================
-* Pixel Lite Bootstrap UI Kit
+* Pixel Lite Bootstrap Design System
 =========================================================
 
 * Product Page: https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit
