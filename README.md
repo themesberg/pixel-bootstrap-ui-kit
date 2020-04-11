@@ -2,7 +2,14 @@
 
 ![Pixel Lite Bootstrap Design System Preview](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/pixel-lite-screenshot-1.jpg "Pixel Lite Bootstrap Design System")
 
-Pixel is a accessibility oriented, fully responsive, modern User Interface Kit that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs.
+Pixel is a accessibility oriented, fully responsive, modern Design System that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs.
+
+**Accessibility**
+
+Pixel is compliant with the latest WCAG 2.1 accessibility standards and passes the WAVE evaluation tool and the Achecker tool as well.
+
+- [WAVE checker](https://wave.webaim.org/report#/https://demo.themesberg.com/pixel-lite/)
+- [Achecker](https://achecker.ca/checker/index.php)
 
 **Premium components**
 
