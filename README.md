@@ -1,4 +1,4 @@
-# [Pixel Lite Bootstrap Design System](https://demo.themesberg.com/pixel-lite/)
+# [Pixel Lite Bootstrap 4 UI Kit](https://demo.themesberg.com/pixel-lite/)
 
 ![Pixel Lite Bootstrap Design System Preview](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/pixel-lite-screenshot-1.jpg "Pixel Lite Bootstrap Design System")
 
