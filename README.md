@@ -98,7 +98,7 @@ The documentation for Pixel Bootstrap Design System is hosted on our [website](h
 Within the download you'll find the following directories and files:
 
 ```
-Pixel Lite UI Kit
+Pixel Lite Design System
 /
 
 ```
