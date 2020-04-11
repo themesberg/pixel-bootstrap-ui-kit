@@ -13,7 +13,7 @@ Pixel is compliant with the latest WCAG 2.1 accessibility standards and passes t
 
 **Premium components**
 
-Pixel Lite is an premium extension of the famous Bootstrap CSS Framework featuring pricing cards, profile cards, timelines and many more. All components are created to comply as much as possible with the WCAG 2.1 standards.
+Pixel is a premium extension of the famous Bootstrap CSS Framework featuring pricing cards, profile cards, timelines and many more. All components are created to comply as much as possible with the WCAG 2.1 standards.
 
 Check out [all components here](https://demo.themesberg.com/pixel-lite/html/components/all.html).
 
