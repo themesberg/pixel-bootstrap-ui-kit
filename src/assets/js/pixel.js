@@ -1,7 +1,7 @@
 /*
 
 =========================================================
-* Pixel Lite Bootstrap UI Kit
+* Pixel Lite Bootstrap Design System
 =========================================================
 
 * Product Page: https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit
@@ -112,7 +112,7 @@ $(document).ready(function () {
     $('.datepicker')[0] && $('.datepicker').each(function () {
         $('.datepicker').datepicker({
             disableTouchKeyboard: true,
-            autoclose: false,
+            autoclose: true,
         });
     });
 
