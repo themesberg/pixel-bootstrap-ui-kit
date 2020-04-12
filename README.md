@@ -1,8 +1,8 @@
 # [Pixel Lite Bootstrap 4 UI Kit](https://demo.themesberg.com/pixel-lite/)
 
-![Pixel Lite Bootstrap Design System Preview](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/pixel-lite-screenshot-1.jpg "Pixel Lite Bootstrap Design System")
+![Pixel Lite Bootstrap UI Kit Preview](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/pixel-lite-screenshot-1.jpg "Pixel Lite Bootstrap UI Kit")
 
-Pixel is a accessibility oriented, fully responsive, modern Design System that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs.
+Pixel is a premium, fully responsive, modern Design System that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs.
 
 **Accessibility**
 
@@ -99,7 +99,7 @@ gulp build:dist
 This will generate a folder `dist` which will have minified CSS, Html and Javascript.
 
 ## Documentation
-The documentation for Pixel Bootstrap Design System is hosted on our [website](https://themesberg.com/docs/pixel-bootstrap/getting-started/overview).
+The documentation for Pixel Bootstrap UI Kit is hosted on our [website](https://themesberg.com/docs/pixel-bootstrap/getting-started/overview).
 
 ## File Structure
 Within the download you'll find the following directories and files:
@@ -126,9 +126,9 @@ At present, we officially aim to support the last two versions of the following 
 
 ## Reporting Issues
 
-We use GitHub Issues as the official bug tracker for Pixel Pro Bootstrap Design System. Here are some advices for our users that want to report an issue:
+We use GitHub Issues as the official bug tracker for Pixel Pro Bootstrap UI Kit. Here are some advices for our users that want to report an issue:
 
-1. Make sure that you are using the latest version of Pixel Pro Bootstrap Design System. Check the CHANGELOG from your dashboard on our [website](https://themesberg.com).
+1. Make sure that you are using the latest version of Pixel Pro Bootstrap UI Kit. Check the CHANGELOG from your dashboard on our [website](https://themesberg.com).
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
