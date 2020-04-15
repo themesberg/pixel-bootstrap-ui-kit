@@ -1,6 +1,11 @@
 # [Pixel Lite Bootstrap 4 UI Kit](https://demo.themesberg.com/pixel-lite/)
 
-![Pixel Lite Bootstrap UI Kit Preview](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/pixel-lite-screenshot-1.jpg "Pixel Lite Bootstrap UI Kit")
+![]( "Pixel Lite Bootstrap UI Kit")
+<p align="center">
+    <a href="https://demo.themesberg.com/pixel-lite/" align="center" alt="Pixel Lite Bootstrap UI Kit Preview">
+        <img width="600" align="center" src="https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/pixel-lite-bootstrap-ui-kit-preview.gif">
+    </a>
+</p>
 
 Pixel is a premium, fully responsive, modern Design System that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs.
 
