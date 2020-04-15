@@ -109,9 +109,30 @@ The documentation for Pixel Bootstrap UI Kit is hosted on our [website](https://
 Within the download you'll find the following directories and files:
 
 ```
-Pixel Lite Design System
-/
-
+Pixel Lite Bootstrap UI Kit
+├── LICENSE
+├── README.md
+├── dist
+│   ├── assets
+│   ├── css
+│   ├── html
+│   ├── index.html
+│   └── node_modules
+├── gulpfile.js
+├── html&css
+│   ├── assets
+│   ├── css
+│   ├── html
+│   ├── index.html
+│   └── node_modules
+├── package-lock.json
+├── package.json
+└── src
+    ├── assets
+    ├── html
+    ├── index.html
+    ├── partials
+    └── scss
 ```
 
 ## Browser Support
