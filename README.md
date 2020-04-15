@@ -1,6 +1,5 @@
 # [Pixel Lite Bootstrap 4 UI Kit](https://demo.themesberg.com/pixel-lite/)
 
-![]( "Pixel Lite Bootstrap UI Kit")
 <p align="center">
     <a href="https://demo.themesberg.com/pixel-lite/" align="center" alt="Pixel Lite Bootstrap UI Kit Preview">
         <img width="600" align="center" src="https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/pixel-lite-bootstrap-ui-kit-preview.gif">
