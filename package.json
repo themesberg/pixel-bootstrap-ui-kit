@@ -1,7 +1,7 @@
 {
-    "name": "pixel-ui-kit",
+    "name": "pixel-lite-bootstrap-ui-kit",
     "version": "3.0.0",
-    "description": "Accessibility oriented and open source Bootstrap Design System.",
+    "description": "Free and open source Bootstrap 4 UI Kit",
     "main": "gulpfile.js",
     "author": "Themesberg",
     "keywords": [
@@ -12,7 +12,9 @@
         "uikit",
         "bootstrap",
         "accessibility",
-        "open source"
+        "open source",
+        "ui kit",
+        "design system"
     ],
     "homepage": "https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit",
     "bugs": {
