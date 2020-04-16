@@ -1,22 +1,28 @@
 {
-    "name": "pixel-lite-bootstrap-ui-kit",
-    "version": "3.0.0",
-    "description": "Free and open source Bootstrap 4 UI Kit",
+    "name": "@themesberg/pixel-lite-bootstrap-ui-kit",
+    "version": "3.1.0",
+    "description": "Free Bootstrap 4 UI Kit",
     "main": "gulpfile.js",
     "author": "Themesberg",
     "keywords": [
+        "bootstrap",
+        "ui",
+        "kit",
+        "components",
+        "elements",
+        "bootstrap 4",
+        "responsive",
+        "front-end",
         "css",
         "sass",
-        "html",
-        "responsive",
-        "uikit",
-        "bootstrap",
-        "accessibility",
-        "open source",
-        "ui kit",
-        "design system"
+        "gulp",
+        "web"
     ],
     "homepage": "https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit",
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/themesberg/pixel-bootstrap-ui-kit"
+    },
     "bugs": {
         "email": "support@themesberg.com"
     },
