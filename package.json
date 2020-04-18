@@ -20,8 +20,8 @@
     ],
     "homepage": "https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit",
     "repository": {
-        "type" : "git",
-        "url" : "https://github.com/themesberg/pixel-bootstrap-ui-kit"
+        "type": "git",
+        "url": "https://github.com/themesberg/pixel-bootstrap-ui-kit"
     },
     "bugs": {
         "email": "support@themesberg.com"

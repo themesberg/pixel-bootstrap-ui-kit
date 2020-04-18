@@ -148,65 +148,33 @@
                 <!-- End of range slider values -->
             </div>
         </div>
-        <div class="row mb-4 mb-lg-5">
-            <div class="col-lg-6 col-sm-6 my-5 my-md-0">
-                <!-- Range slider container -->
-                <div id="input-slider-range-2" data-range-value-min="100" data-range-value-max="500"></div>
-                <!-- Range slider values -->
-                <div class="row d-none">
-                    <div class="col-6">
-                        <span class="range-slider-value value-low" data-range-value-low="200" id="input-slider-range-value-low-2"></span>
-                    </div>
-                    <div class="col-6 text-right">
-                        <span class="range-slider-value value-high" data-range-value-high="400" id="input-slider-range-value-high-2"></span>
-                    </div>
-                </div>
-                <!-- End of range slider values -->
-            </div>
-            <div class="col-3 offset-md-2 col-lg-2">
-                <!-- Range slider container -->
-                <div id="input-slider-vertical-1" data-range-value-min="100" data-range-value-max="500"></div>
-                <!-- Range slider values -->
-                <div class="row d-none">
-                    <div class="col-6">
-                        <span class="range-slider-value value-low" data-range-value-low="200" id="input-slider-range-value-low-3"></span>
-                    </div>
-                    <div class="col-6 text-right">
-                        <span class="range-slider-value value-high" data-range-value-high="400" id="input-slider-range-value-high-3"></span>
-                    </div>
-                </div>
-                <!-- End of range slider values -->
-            </div>
-            <div class="col-3 col-lg-2">
-                <!-- Range slider container -->
-                <div id="input-slider-vertical-2" data-range-value-min="100" data-range-value-max="500"></div>
-                <!-- Range slider values -->
-                <div class="row d-none">
-                    <div class="col-6">
-                        <span class="range-slider-value value-low" data-range-value-low="200" id="input-slider-range-value-low-4"></span>
-                    </div>
-                    <div class="col-6 text-right">
-                        <span class="range-slider-value value-high" data-range-value-high="400" id="input-slider-range-value-high-4"></span>
-                    </div>
-                </div>
-                <!-- End of range slider values -->
-            </div>
-        </div>
-        <div class="row">
+        <div class="row mb-5 mb-lg-5">
             <div class="col-lg-3 col-md-6">
                 <!-- Checkboxes -->
                 <div class="mb-3">
                     <span class="h6 font-weight-bold">Checkboxes Round</span>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
+                    <label class="form-check-label" for="defaultCheck10">
                       Default checkbox
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
-                    <label class="form-check-label" for="defaultCheck2">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck20">
+                    <label class="form-check-label" for="defaultCheck20">
+                      Second Default checkbox
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck30">
+                    <label class="form-check-label" for="defaultCheck30">
+                      Third Default checkbox
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheckDisabled" disabled>
+                    <label class="form-check-label" for="defaultCheckDisabled">
                       Disabled checkbox
                     </label>
                 </div>
@@ -225,6 +193,12 @@
                         <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
                         <label class="form-check-label" for="exampleRadios2">
                           Second default radio
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option2">
+                        <label class="form-check-label" for="exampleRadios4">
+                          Third default radio
                         </label>
                       </div>
                       <div class="form-check">
@@ -248,6 +222,45 @@
                     <input type="checkbox" class="custom-control-input" disabled id="customSwitch2">
                     <label class="custom-control-label" for="customSwitch2">Disabled switch element</label>
                 </div>
+            </div>
+        </div>
+        <div class="row mb-4 mb-lg-5">
+            <div class="col-12 col-md-4">
+                <!-- Form -->
+                <div class="form-group">
+                    <label class="h6" for="exampleInputDate1">Choose a date</label>
+                    <div class="input-group mb-4">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><span class="far fa-calendar-alt"></span></span>
+                        </div>
+                        <input class="form-control datepicker" id="exampleInputDate1" placeholder="Select date" type="text" aria-label="Date with icon left">
+                    </div>
+                </div>
+                <!-- End of Form -->
+            </div>
+            <div class="col-12 col-md-8">
+                <!-- Form -->
+                <div class="input-daterange datepicker row align-items-center">
+                    <div class="col">
+                        <label class="h6" for="exampleInputDate2">From</label>
+                        <div class="form-group">
+                            <div class="input-group input-group-border">
+                                <div class="input-group-prepend"><span class="input-group-text"><span class="far fa-calendar-alt"></span></span></div>
+                                <input class="form-control datepicker" id="exampleInputDate2" placeholder="Start date" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label class="h6" for="exampleInputDate3">To</label>
+                            <div class="input-group input-group-border">
+                                <div class="input-group-prepend"><span class="input-group-text"><span class="far fa-calendar-alt"></span></span></div>
+                                <input class="form-control datepicker" id="exampleInputDate3" placeholder="End date" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Form -->
             </div>
         </div>
     </div>

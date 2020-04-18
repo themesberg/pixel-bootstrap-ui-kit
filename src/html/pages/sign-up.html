@@ -1,0 +1,120 @@
+<!--
+
+=========================================================
+* Pixel Lite Bootstrap Design System
+=========================================================
+
+* Product Page: https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit
+* Copyright 2019 Themesberg (https://www.themesberg.com)
+* License Themesberg (Crafty Dwarf LLC) (https://themesberg.com/licensing)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @@include('./_head.html', {
+        "path": "../..",
+        "title": "Pixel Pages - Sign up"
+    })
+</head>
+
+<body>
+    <main>
+
+        @@include('./_preloader.html', {
+            "path": "../.."
+        })
+
+        <!-- Section -->
+        <section class="min-vh-100 d-flex align-items-center bg-soft">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 d-flex align-items-center justify-content-center">
+                        <div class="signin-inner mt-3 mt-lg-0 bg-white shadow-soft border rounded border-light p-4 p-lg-5 w-100 fmxw-500">
+                            <div class="text-center text-md-center mb-4 mt-md-0">
+                                <h1 class="mb-0 h3">Create an account</h1>
+                            </div>
+                            <form action="#">
+                                <!-- Form -->
+                                <div class="form-group">
+                                    <label for="exampleInputIcon4">Your email</label>
+                                    <div class="input-group mb-4">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><span class="fas fa-envelope"></span></span>
+                                        </div>
+                                        <input class="form-control" id="exampleInputIcon4" placeholder="example@company.com" type="text" aria-label="email adress" required>
+                                    </div>
+                                </div>
+                                <!-- End of Form -->
+                                <div class="form-group">
+                                    <!-- Form -->
+                                    <div class="form-group">
+                                        <label for="password">Password</label>
+                                        <div class="input-group mb-4">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><span class="fas fa-unlock-alt"></span></span>
+                                            </div>
+                                            <input class="form-control" id="password" placeholder="Password" type="password" aria-label="Password" required>
+                                        </div>
+                                    </div>
+                                    <!-- End of Form -->
+                                    <!-- Form -->
+                                    <div class="form-group">
+                                        <label for="passwordConfirm">Confirm Password</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><span class="fas fa-unlock-alt"></span></span>
+                                            </div>
+                                            <input class="form-control" id="passwordConfirm" placeholder="Confirm password" type="password" aria-label="Password" required>
+                                        </div>
+                                    </div>
+                                    <!-- End of Form -->
+                                    <div class="form-check mb-4">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+                                        <label class="form-check-label" for="defaultCheck6">
+                                            I agree to the <a href="#">terms and conditions</a>
+                                        </label>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-block btn-primary">Sign in</button>
+                            </form>
+                            <div class="mt-3 mb-4 text-center">
+                                <span class="font-weight-normal">or</span>
+                            </div>
+                            <div class="btn-wrapper my-4 text-center">
+                                <button class="btn btn-icon-only btn-pill btn-outline-light text-facebook mr-2" type="button" aria-label="facebook button" title="facebook button">
+                                    <span aria-hidden="true" class="fab fa-facebook-f"></span>
+                                </button>
+                                <button class="btn btn-icon-only btn-pill btn-outline-light text-twitter mr-2" type="button" aria-label="twitter button" title="twitter button">
+                                    <span aria-hidden="true" class="fab fa-twitter"></span>
+                                </button>
+                                <button class="btn btn-icon-only btn-pill btn-outline-light text-facebook" type="button" aria-label="github button" title="github button">
+                                    <span aria-hidden="true" class="fab fa-github"></span>
+                                </button>
+                            </div>
+                            <div class="d-block d-sm-flex justify-content-center align-items-center mt-4">
+                                <span class="font-weight-normal">
+                                    Already have an account?
+                                    <a href="./sign-in.html" class="font-weight-bold">Login here</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    @@include('./_scripts.html', {
+        "path": "../.."
+    })
+</body>
+
+</html>

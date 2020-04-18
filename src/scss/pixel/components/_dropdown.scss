@@ -64,3 +64,8 @@
     min-width: 450px;
     border-radius: $border-radius-lg;
 }
+
+.sr-only{
+    background-color: $primary;
+    color: $white;
+}
