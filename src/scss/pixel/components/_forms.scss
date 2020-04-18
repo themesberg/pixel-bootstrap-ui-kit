@@ -2,7 +2,7 @@
  * = Forms
  */
 
-label {
+ label {
     font-size: $font-size-sm;
 }
 
@@ -16,9 +16,16 @@ label {
     box-shadow: none;
     
     &:focus {
+        border-color:$input-focus-border-color;
+        background-color: $input-focus-bg;
         &:placeholder {
             color: $input-focus-placeholder-color;
+            
         }
+    }
+
+    &:active{
+        border-color: $input-focus-border-color;
     }
 }
 
@@ -73,7 +80,6 @@ textarea[resize="horizontal"] {
 // Indent the labels to position radios/checkboxes as hanging controls.
 
 .form-check{
-    margin-top: .5rem;
     padding-left: 0;
 }
 
@@ -138,7 +144,6 @@ textarea[resize="horizontal"] {
     color: $white;
     font-weight: 900;
     border: 0;
-    background-color: inherit;
 }
 
 .form-check.disabled .form-check-label,
@@ -154,7 +159,7 @@ textarea[resize="horizontal"] {
     visibility: hidden;
 }
 .form-check input[type="checkbox"]:checked + .form-check-label::after{
-    background-color:$primary;
+    background-color:$custom-checkbox-checked-bg;
     opacity: 1;
     font-size: .6rem;
     margin-top: 0;
@@ -250,7 +255,13 @@ textarea[resize="horizontal"] {
 
 .focused{
 	.input-group-text{
-		border-color:$primary;
-	}
+        border-color:$input-focus-border-color;
+        background-color: $input-focus-bg;
+    }
+    
+    .form-control {
+        border-color:$input-focus-border-color;
+        background-color: $input-focus-bg;
+    }
 }
 

@@ -112,7 +112,6 @@ $(document).ready(function () {
     $('.datepicker')[0] && $('.datepicker').each(function () {
         $('.datepicker').datepicker({
             disableTouchKeyboard: true,
-            autoclose: true,
         });
     });
 
