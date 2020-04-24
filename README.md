@@ -8,13 +8,6 @@
 
 Pixel is a premium, fully responsive, modern Design System that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs.
 
-**Accessibility**
-
-Pixel is compliant with the latest UI design accessibility standards and passes the WAVE evaluation tool and the Achecker tool as well.
-
-- [WAVE checker](https://wave.webaim.org/report#/https://demo.themesberg.com/pixel-lite/)
-- [Achecker](https://achecker.ca/checker/index.php)
-
 **Premium components**
 
 Pixel is a premium extension of the famous Bootstrap CSS Framework featuring pricing cards, profile cards, timelines and many more. All components are created to comply as much as possible with the WCAG 2.1 standards.
@@ -28,6 +21,13 @@ Pixel Lite comes with 4 premium example pages that we created to show you the be
 **Complete Documentation**
 
 Each component, plugin and the general workflow is well documented. Check out the [online documentation for Pixel](https://themesberg.com/docs/pixel-bootstrap/getting-started/overview/).
+
+**Accessibility**
+
+Pixel is compliant with the latest UI design accessibility standards and passes the WAVE evaluation tool and the Achecker tool as well.
+
+- [WAVE checker](https://wave.webaim.org/report#/https://demo.themesberg.com/pixel-lite/)
+- [Achecker](https://achecker.ca/checker/index.php)
 
 ## Workflow
 
