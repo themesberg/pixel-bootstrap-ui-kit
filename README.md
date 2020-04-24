@@ -10,7 +10,7 @@ Pixel is a premium, fully responsive, modern Design System that will help you bu
 
 **Accessibility**
 
-Pixel is compliant with the latest WCAG 2.1 accessibility standards and passes the WAVE evaluation tool and the Achecker tool as well.
+Pixel is compliant with the latest UI design accessibility standards and passes the WAVE evaluation tool and the Achecker tool as well.
 
 - [WAVE checker](https://wave.webaim.org/report#/https://demo.themesberg.com/pixel-lite/)
 - [Achecker](https://achecker.ca/checker/index.php)
