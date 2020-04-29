@@ -6,7 +6,7 @@
     </a>
 </p>
 
-Pixel is a premium, fully responsive, modern Design System that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs.
+Pixel is a free, fully responsive, modern Bootstrap UI Kit that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs.
 
 **Premium components**
 
