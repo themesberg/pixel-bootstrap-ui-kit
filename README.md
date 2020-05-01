@@ -6,14 +6,7 @@
     </a>
 </p>
 
-Pixel is a premium, fully responsive, modern Design System that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs.
-
-**Accessibility**
-
-Pixel is compliant with the latest WCAG 2.1 accessibility standards and passes the WAVE evaluation tool and the Achecker tool as well.
-
-- [WAVE checker](https://wave.webaim.org/report#/https://demo.themesberg.com/pixel-lite/)
-- [Achecker](https://achecker.ca/checker/index.php)
+Pixel is a free, fully responsive, modern Bootstrap UI Kit that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs.
 
 **Premium components**
 
@@ -28,6 +21,13 @@ Pixel Lite comes with 4 premium example pages that we created to show you the be
 **Complete Documentation**
 
 Each component, plugin and the general workflow is well documented. Check out the [online documentation for Pixel](https://themesberg.com/docs/pixel-bootstrap/getting-started/overview/).
+
+**Accessibility**
+
+Pixel is compliant with the latest UI design accessibility standards and passes the WAVE evaluation tool and the Achecker tool as well.
+
+- [WAVE checker](https://wave.webaim.org/report#/https://demo.themesberg.com/pixel-lite/)
+- [Achecker](https://achecker.ca/checker/index.php)
 
 ## Workflow
 
@@ -53,11 +53,11 @@ This product is built using the following widely used technologies:
 ## Demo
 
 -   [Live Preview](https://demo.themesberg.com/pixel-lite/)
--   [Product Page](https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit)
+-   [Product Page](https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit?ref=github-pixel-lite-bootstrap)
 
 ## Quick start
 
-1. Download from [Themesberg](https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit)
+1. Download from [Themesberg](https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit?ref=github-pixel-lite-bootstrap)
 2. Download the project's zip
 3. Make sure you have Node locally installed.
 4. Download Gulp Command Line Interface to be able to use gulp in your Terminal.
@@ -149,34 +149,34 @@ At present, we officially aim to support the last two versions of the following 
 
 ## Resources
 - Demo: <https://demo.themesberg.com/pixel-lite/index.html>
-- Download Page: <https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit>
-- Documentation: <https://themesberg.com/docs/pixel-bootstrap/getting-started/overview>
-- License Agreement: <https://themesberg.com/licensing>
-- Support: <https://themesberg.com/contact>
+- Download Page: <https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit?ref=github-pixel-lite-bootstrap>
+- Documentation: <https://themesberg.com/docs/pixel-bootstrap/getting-started/overview?ref=github-pixel-lite-bootstrap>
+- License Agreement: <https://themesberg.com/licensing?ref=github-pixel-lite-bootstrap>
+- Support: <https://themesberg.com/contact?ref=github-pixel-lite-bootstrap>
 - Issues: [Github Issues Page](https://github.com/themesberg/pixel-bootstrap-ui-kit/issues)
 
 ## Reporting Issues
 
 We use GitHub Issues as the official bug tracker for Pixel Pro Bootstrap UI Kit. Here are some advices for our users that want to report an issue:
 
-1. Make sure that you are using the latest version of Pixel Pro Bootstrap UI Kit. Check the CHANGELOG from your dashboard on our [website](https://themesberg.com).
+1. Make sure that you are using the latest version of Pixel Pro Bootstrap UI Kit. Check the CHANGELOG from your dashboard on our [website](https://themesberg.com?ref=github-pixel-lite-bootstrap).
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
 ## Technical Support or Questions
 
-If you have questions or need help integrating the product please [contact us](https://themesberg.com/contact) instead of opening an issue.
+If you have questions or need help integrating the product please [contact us](https://themesberg.com/contact?ref=github-pixel-lite-bootstrap) instead of opening an issue.
 
 ## Licensing
 
-- Copyright 2020 Themesberg (Crafty Dwarf LLC) (https://themesberg.com/)
-- Themesberg [license](https://themesberg.com/licensing)
+- Copyright 2020 Themesberg (Crafty Dwarf LLC) (https://themesberg.com/?ref=github-pixel-lite-bootstrap)
+- Themesberg [license](https://themesberg.com/licensing?ref=github-pixel-lite-bootstrap)
 
 ## Useful Links
 
-- [More themes](https://themesberg.com/themes) from Themesberg
-- [Free themes](https://themesberg.com/products/free-themes) from Themesberg
-- [Affiliate Program](https://themesberg.com/affiliate)
+- [More themes](https://themesberg.com/themes?ref=github-pixel-lite-bootstrap) from Themesberg
+- [Free themes](https://themesberg.com/products/free-themes?ref=github-pixel-lite-bootstrap) from Themesberg
+- [Affiliate Program](https://themesberg.com/affiliate?ref=github-pixel-lite-bootstrap)
 
 ##### Social Media
 
