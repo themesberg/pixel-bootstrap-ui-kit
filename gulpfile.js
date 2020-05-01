@@ -9,6 +9,7 @@ var del = require('del');
 const htmlmin = require('gulp-htmlmin');
 const cssbeautify = require('gulp-cssbeautify');
 var gulp = require('gulp');
+const npmDist = require('gulp-npm-dist');
 var sass = require('gulp-sass');
 var wait = require('gulp-wait');
 var sourcemaps = require('gulp-sourcemaps');
@@ -16,14 +17,14 @@ var fileinclude = require('gulp-file-include');
 
 // Define paths
 
-var paths = {
+const paths = {
     dist: {
         base: './dist/',
         css: './dist/css',
         html: './dist/html',
         assets: './dist/assets',
         img: './dist/assets/img',
-        vendor: './dist/node_modules'
+        vendor: './dist/vendor'
     },
     dev: {
         base: './html&css/',
@@ -31,7 +32,7 @@ var paths = {
         html: './html&css/html',
         assets: './html&css/assets',
         img: './html&css/assets/img',
-        vendor: './html&css/node_modules'
+        vendor: './html&css/vendor'
     },
     base: {
         base: './',
@@ -44,14 +45,15 @@ var paths = {
         assets: './src/assets/**/*.*',
         partials: './src/partials/**/*.html',
         scss: './src/scss',
-        vendor: './node_modules/**/*.*'
+        node_modules: './node_modules/',
+        vendor: './vendor'
     },
     temp: {
         base: './.temp/',
         css: './.temp/css',
         html: './.temp/html',
         assets: './.temp/assets',
-        vendor: './.temp/node_modules'
+        vendor: './.temp/vendor'
     }
 };
 
@@ -95,10 +97,9 @@ gulp.task('assets', function () {
         .pipe(browserSync.stream());
 });
 
-gulp.task('vendor', function () {
-    return gulp.src([paths.src.vendor])
-        .pipe(gulp.dest(paths.temp.vendor))
-        .pipe(browserSync.stream());
+gulp.task('vendor', function() {
+    return gulp.src(npmDist(), { base: paths.src.node_modules })
+      .pipe(gulp.dest(paths.temp.vendor));
 });
 
 gulp.task('serve', gulp.series('scss', 'html', 'index', 'assets', 'vendor', function() {
@@ -238,15 +239,15 @@ gulp.task('copy:dev:assets', function () {
         .pipe(gulp.dest(paths.dev.assets))
 });
 
-// Copy node_modules
-gulp.task('copy:dist:vendor', function () {
-    return gulp.src(paths.src.vendor)
-        .pipe(gulp.dest(paths.dist.vendor))
+// Copy node_modules to vendor
+gulp.task('copy:dist:vendor', function() {
+    return gulp.src(npmDist(), { base: paths.src.node_modules })
+      .pipe(gulp.dest(paths.dist.vendor));
 });
 
-gulp.task('copy:dev:vendor', function () {
-    return gulp.src(paths.src.vendor)
-        .pipe(gulp.dest(paths.dev.vendor))
+gulp.task('copy:dev:vendor', function() {
+    return gulp.src(npmDist(), { base: paths.src.node_modules })
+      .pipe(gulp.dest(paths.dev.vendor));
 });
 
 gulp.task('build:dev', gulp.series('clean:dev', 'copy:dev:css', 'copy:dev:html', 'copy:dev:html:index', 'copy:dev:assets', 'beautify:css', 'copy:dev:vendor'));
