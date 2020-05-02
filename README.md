@@ -2,7 +2,9 @@
 
  ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/themesberg/pixel-bootstrap-ui-kit.svg?maxAge=2592000)](https://github.com/themesberg/pixel-bootstrap-ui-kit/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/themesberg/pixel-bootstrap-ui-kit.svg?maxAge=2592000)](https://github.com/themesberg/pixel-bootstrap-ui-kit/issues?q=is%3Aissue+is%3Aclosed)
 
-[![Pixel Bootstrap 4 UI Kit Preview](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/pixel-lite-bootstrap-ui-kit-preview.gif)](https://demo.themesberg.com/pixel-lite/)
+<a href="https://demo.themesberg.com/pixel-lite/">
+ <img src="https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/pixel-lite-bootstrap-ui-kit-preview.gif" alt="Pixel Bootstrap 4 UI Kit Preview" width="650"/>
+ </a>
 
 Pixel is a free, fully responsive, modern Bootstrap UI Kit that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs.
 
