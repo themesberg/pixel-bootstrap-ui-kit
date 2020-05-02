@@ -171,7 +171,7 @@ If you have questions or need help integrating the product please [contact us](h
 ## Licensing
 
 - Copyright 2020 Themesberg (Crafty Dwarf LLC) (https://themesberg.com)
-- Themesberg [license](https://themesberg.com/licensing#mit?ref=github-pixel-lite-bootstrap) (MIT License)
+- Themesberg [license](https://themesberg.com/licensing#mit) (MIT License)
 
 ## Useful Links
 
