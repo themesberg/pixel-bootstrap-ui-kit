@@ -10,7 +10,7 @@ Pixel is a free, fully responsive, modern Bootstrap UI Kit that will help you bu
 
 ## Premium components
 
-Pixel is a premium extension of the famous Bootstrap CSS Framework featuring pricing cards, profile cards, timelines and many more. All components are created to comply as much as possible with the WCAG 2.1 standards.
+Pixel is a premium extension of the famous Bootstrap CSS Framework featuring pricing cards, profile cards, timelines and many more and additional plugins for datepickers and input sliders which Bootstrap does not have by default.
 
 Check out [all components here](https://demo.themesberg.com/pixel-lite/html/components/all.html).
 
