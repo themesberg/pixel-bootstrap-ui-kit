@@ -22,13 +22,6 @@ Pixel Lite comes with 6 example pages that we created to show you the beautiful 
 
 Each component, plugin and the general workflow is well documented. Check out the [online documentation for Pixel](https://themesberg.com/docs/pixel-bootstrap/getting-started/overview/).
 
-## UI Accessibility
-
-Pixel is compliant with the latest UI design accessibility standards and passes the WAVE evaluation tool and the Achecker tool as well.
-
-- [WAVE checker](https://wave.webaim.org/report#/https://demo.themesberg.com/pixel-lite/)
-- [Achecker](https://achecker.ca/checker/index.php)
-
 ## Workflow
 
 This product is built using the following widely used technologies:
