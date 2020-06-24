@@ -175,8 +175,9 @@ If you have questions or need help integrating the product please [contact us](h
 
 ## Useful Links
 
-- [More themes](https://themesberg.com/themes?ref=github-pixel-lite-bootstrap) from Themesberg
-- [Free themes](https://themesberg.com/products/free-themes?ref=github-pixel-lite-bootstrap) from Themesberg
+- [More themes](https://themesberg.com/themes) from Themesberg
+- [Free themes](https://themesberg.com/templates/free) from Themesberg
+- [Bootstrap Themes, Templates & UI Kits](https://themesberg.com/templates/bootstrap) from Themesberg
 - [Affiliate Program](https://themesberg.com/affiliate?ref=github-pixel-lite-bootstrap)
 
 ##### Social Media
