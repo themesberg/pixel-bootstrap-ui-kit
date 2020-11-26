@@ -1,6 +1,7 @@
 <a href="https://themesberg.com/black-friday?utm_medium=social&utm_source=github&utm_campaign=bf-readme-2020">
 <img border="0" alt="Themesberg Black Friday Offer 2020" src="https://themesberg.s3.us-east-2.amazonaws.com/public/posts/black-friday/2020/black-friday-bootstrap-themes.png" >
 </a>
+
 # [Pixel Bootstrap 4 UI Kit](https://demo.themesberg.com/pixel-lite/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fthemesberg%2Fpixel-bootstrap-ui-kit&via=themesberg&text=Kick-start%20development%20with%20Pixel%20Bootstrap%20UI%20Kit&hashtags=bootstrap%2C%20ui%20kit)
 
  ![version](https://img.shields.io/badge/version-3.1.2-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/themesberg/pixel-bootstrap-ui-kit.svg?maxAge=2592000)](https://github.com/themesberg/pixel-bootstrap-ui-kit/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/themesberg/pixel-bootstrap-ui-kit.svg?maxAge=2592000)](https://github.com/themesberg/pixel-bootstrap-ui-kit/issues?q=is%3Aissue+is%3Aclosed)
