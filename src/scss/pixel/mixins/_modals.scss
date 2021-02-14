@@ -4,7 +4,7 @@
 	}
 	.modal-header,
 	.modal-footer {
-		border-color: rgba(color-yiq($background), .075);
+		border-color: rgba($background, .075);
 	}
 	.modal-content {
 		background-color: $background;

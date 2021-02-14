@@ -1,16 +1,20 @@
 .preloader {
-    display: flex;
+    display    : flex;
     align-items: center;
-    height: 100vh;
-    left: 0;
-    position: fixed;
-    top: 0;
-    transition: opacity .2s linear;
-    width: 100%;
-    z-index: 9999;
+    height     : 100vh;
+    left       : 0;
+    position   : fixed;
+    top        : 0;
+    transition : height .3s linear;
+    width      : 100%;
+    z-index    : 9999;
 
     img {
-        width: 30px;
+        width : 30px;
         height: 30px;
+    }
+
+    &.show {
+        height: 0;
     }
 }

@@ -1,10 +1,6 @@
 /**
  * = Backgrounds
- */
-
-@each $color, $value in $colors {
-	@include bg-variant(".bg-#{$color}", $value);
-}
+*/
 
 @each $color, $value in $theme-colors {
 	@include bg-gradient-variant(".bg-gradient-#{$color}", $value);
@@ -21,16 +17,12 @@
             height: 100%;
             top: 0;
             left: 0;
-            opacity: 0.7;
+            opacity: 0.8;
             z-index: 0;
         }
     }
 }
 
-@each $color, $value in $theme-colors {
-    @include bg-variant(".section-#{$color}", $value);
-}
-
 .section-image {
-    @include background-image(no-repeat, cover); 
+   @include background-image(no-repeat, cover); 
 }

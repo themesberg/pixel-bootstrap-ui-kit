@@ -2,88 +2,113 @@
  * = Footers
  */
 
-.footer{
+.footer {
     position: relative;
 
-    ul{
-        margin-bottom: 0;
-        padding: 0;
-        list-style: none;
+    h3,
+    h5,
+    .h3,
+    .h5 {
+        font-size    : 1.15rem;
+        margin-bottom: 1.25rem;
+    }
 
-        li{
+    ul {
+        margin-bottom: 0;
+        padding      : 0;
+        list-style   : none;
+
+        li {
             display: inline-block;
 
-            a{
+            a {
                 text-decoration: none;
-                position: relative;
-                display: block;
+                position       : relative;
+                display        : block;
             }
 
-            .btn{
+            .btn {
                 margin: 0;
             }
         }
 
-        &.links-horizontal{
-            &:first-child a{
+        &.links-horizontal {
+            &:first-child a {
                 padding-left: 0;
             }
 
-            &:last-child a{
+            &:last-child a {
                 padding-right: 0;
             }
 
         }
 
-        &.links-vertical{
-            li{
-                display: block;
-                margin-left: -5px;
+        &.footer-links {
+            li {
+                display     : block;
+                margin-left : -5px;
                 margin-right: -5px;
 
-                a{
+                a {
                     padding: 5px;
 
-                    &:hover{
+                    &:hover {
                         color: inherit !important;
                     }
                 }
             }
         }
 
-        &.icon-box{
-            i{
+        &.icon-box {
+            span {
                 line-height: 1.7
             }
         }
     }
 
-    .social-buttons{
+    .social-buttons {
+
         a,
-        .btn{
-            margin-top: 5px;
+        .btn {
+            margin-top   : 5px;
             margin-bottom: 5px;
-            padding: $padding-footer-sm $padding-footer;
         }
     }
 
-    .footer-brand{
-        font-size: $font-size-lg;
+    .footer-brand {
+        font-size  : $font-size-lg;
         font-weight: $font-weight-bold;
-        img, svg{
-            width: 40px;
+
+        img,
+        svg {
+            width: 30px;
         }
+
         &:hover,
-        &:focus{
+        &:focus {
             color: $black;
         }
+
+        &.brand-sm {
+
+            img,
+            svg {
+                width: 25px;
+            }
+        }
     }
-    .copyright{
+
+    .copyright {
         font-size: $font-size-sm;
     }
 
-    .pull-center{
+    .pull-center {
         display: inline-block;
-        float: none;
+        float  : none;
     }
+}
+
+.footer-logo-text {
+    font-size  : 1.2rem;
+    font-weight: 600 !important;
 }

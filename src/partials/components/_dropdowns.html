@@ -1,0 +1,148 @@
+<div class="section section-md">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="mb-5">
+                    <div class="mb-5">
+                        <span class="h5">Button dropdowns</span>
+                    </div>
+                    <div class="btn-group me-2 mb-2">
+                        <button type="button" class="btn btn-primary">Primary</button>
+                        <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="fas fa-angle-down dropdown-arrow"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu py-0">
+                            <a class="dropdown-item rounded-top" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item rounded-bottom" href="#">Separated link</a>
+                        </div>
+                    </div>
+                    <div class="btn-group mb-2 me-2">
+                        <button type="button" class="btn btn-tertiary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="fas fa-angle-down dropdown-arrow"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu py-0">
+                            <a class="dropdown-item rounded-top" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item rounded-bottom" href="#">Separated link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-5">
+                    <div class="mb-5">
+                        <span class="h5">Choose your size</span>
+                    </div>
+                    <div class="btn-group me-2 mb-2">
+                        <button type="button" class="btn btn-sm btn-primary">Small</button>
+                        <button type="button" class="btn btn-sm btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="fas fa-angle-down dropdown-arrow"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu py-0">
+                            <a class="dropdown-item rounded-top" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item rounded-bottom" href="#">Separated link</a>
+                        </div>
+                    </div>
+                    <div class="btn-group me-2 mb-2">
+                        <button type="button" class="btn btn-secondary">Default</button>
+                        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split me-n1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="fas fa-angle-down dropdown-arrow"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu py-0">
+                            <a class="dropdown-item rounded-top" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item rounded-bottom" href="#">Separated link</a>
+                        </div>
+                    </div>
+                    <div class="btn-group mb-2 me-2">
+                        <button type="button" class="btn btn-lg btn-tertiary">Large</button>
+                        <button type="button" class="btn btn-lg btn-tertiary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="fas fa-angle-down dropdown-arrow"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu py-0">
+                            <a class="dropdown-item rounded-top" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item rounded-bottom" href="#">Separated link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-5">
+                    <div class="mb-5">
+                        <span class="h5">Dropdown button directions</span>
+                    </div>
+                    <div class="btn-group dropup mb-2 me-2">
+                        <button type="button" class="btn btn-primary">Up</button>
+                        <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="fas fa-angle-up dropdown-arrow"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu py-0">
+                            <a class="dropdown-item rounded-top" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item rounded-bottom" href="#">Separated link</a>
+                        </div>
+                    </div>
+                    <div class="btn-group dropend mb-2 me-2">
+                        <button type="button" class="btn btn-primary">Right</button>
+                        <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="fas fa-angle-right dropdown-arrow"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu py-0">
+                            <a class="dropdown-item rounded-top" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item rounded-bottom" href="#">Separated link</a>
+                        </div>
+                    </div>
+                    <div class="btn-group mb-2 me-2">
+                        <button type="button" class="btn btn-primary">Down</button>
+                        <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="fas fa-angle-down dropdown-arrow"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu py-0">
+                            <a class="dropdown-item rounded-top" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item rounded-bottom" href="#">Separated link</a>
+                        </div>
+                    </div>
+                    <div class="btn-group dropstart mb-2 me-2">
+                        <button type="button" class="btn btn-primary">Left</button>
+                        <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split me-n1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="fas fa-angle-left dropdown-arrow"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu py-0">
+                            <a class="dropdown-item rounded-top" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item rounded-bottom" href="#">Separated link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

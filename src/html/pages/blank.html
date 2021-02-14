@@ -1,0 +1,60 @@
+<!--
+
+=========================================================
+* Pixel Free Bootstrap 5 UI Kit
+=========================================================
+
+* Product Page: https://themesberg.com/product/ui-kit/pixel-free-bootstrap-5-ui-kit
+* Copyright 2021 Themesberg (https://www.themesberg.com)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. Contact us if you want to remove it.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @@include('./_head.html', {
+        "path": "../..",
+        "title": "Pixel Bootstrap 5 - Blank page"
+    })
+</head>
+
+<body>
+    @@include('./_navigation.html', {
+        "path": "../..",
+        "classes": "navbar-light navbar-theme-secondary"
+    })
+    <main>
+
+        @@include('./_preloader.html', {
+            "path": "../.."
+        })
+
+        <!-- Hero -->
+        <section class="section-header">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 text-center">
+                        <h1 class="display-2 mb-3">Blank starter page</h1>
+                        <p>Hello world!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    @@include('./_footer.html', {
+        "path": "../..",
+        "classes": "bg-dark text-white"
+    })
+
+    @@include('./_scripts.html', {
+        "path": "../.."
+    })
+</body>
+
+</html>

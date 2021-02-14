@@ -6,7 +6,7 @@
     height: 12rem;
 }
 
-.image-md{
+.image-md {
     height: 5rem;
 }
 
@@ -18,33 +18,38 @@
     height: 2rem;
 }
 
+.small-image {
+    height: 4rem;
+}
+
 .img-thumbnail {
     border-width: $border-width-md;
-    box-shadow: none;
+    box-shadow  : none;
 }
 
-.full-image{
-    height:100%;
+.full-image {
+    height: 100%;
 }
 
-@include media-breakpoint-up(sm){
+@include media-breakpoint-up(sm) {
     .effect-img-2 {
         position: absolute;
-        right: 5rem;
-        top: 19%;
-        z-index: 2;
-        margin: 0;
+        right   : 5rem;
+        top     : 19%;
+        z-index : 2;
+        margin  : 0;
     }
 
-    .effect-img-1, .effect-img-2 {
-        width: 350px;
+    .effect-img-1,
+    .effect-img-2 {
+        width : 350px;
         height: auto;
     }
 }
 
-@include media-breakpoint-down(md){
-    .effect-img-2{
-        right:.425rem;
-        top:0;
+@include media-breakpoint-down(md) {
+    .effect-img-2 {
+        right: .425rem;
+        top  : 0;
     }
 }

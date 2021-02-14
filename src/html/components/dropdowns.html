@@ -1,0 +1,69 @@
+<!--
+
+=========================================================
+* Pixel Free Bootstrap 5 UI Kit
+=========================================================
+
+* Product Page: https://themesberg.com/product/ui-kit/pixel-free-bootstrap-5-ui-kit
+* Copyright 2021 Themesberg (https://www.themesberg.com)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. Contact us if you want to remove it.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @@include('./_head.html', {
+        "path": "../..",
+        "title": "Pixel Bootstrap 5 - Dropdowns"
+    })
+</head>
+
+<body>
+    @@include('./_navigation.html', {
+        "path": "../..",
+        "classes": "navbar-dark"
+    })
+    <main>
+
+        @@include('./_preloader.html', {
+            "path": "../.."
+        })
+        <!-- Hero -->
+        <div class="section-header pb-6 bg-primary text-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 text-center">
+                        <h1 class="display-3 mb-4">Dropdowns</h1>
+                        <p class="lead mb-5">Dropdowns are toggleable, contextual overlays for displaying lists of links and more. They’re made interactive with the included JavaScript plugin.</p>
+                        <div class="alert bg-secondary" role="alert">
+                            <span class="fas fa-info-circle"></span>
+                            <a class="fw-bold text-white text-underline mx-1" href="https://themesberg.com/docs/pixel-bootstrap/components/buttons/" target="_blank">See our Documentation</a> for a detailed technical explanation.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Hero -->
+        
+        @@include('./components/_dropdowns.html', {
+            "path": "../.."
+        })
+
+    </main>
+    @@include('./_footer.html', {
+        "path": "../..",
+        "classes": "bg-primary text-white"
+    })
+
+    @@include('./_scripts.html', {
+        "path": "../.."
+    })
+</body>
+
+</html>

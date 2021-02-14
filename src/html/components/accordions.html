@@ -1,18 +1,17 @@
 <!--
 
 =========================================================
-* Pixel Lite Bootstrap Design System
+* Pixel Free Bootstrap 5 UI Kit
 =========================================================
 
-* Product Page: https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit
-* Copyright 2019 Themesberg (https://www.themesberg.com)
-* License Themesberg (Crafty Dwarf LLC) (https://themesberg.com/licensing)
+* Product Page: https://themesberg.com/product/ui-kit/pixel-free-bootstrap-5-ui-kit
+* Copyright 2021 Themesberg (https://www.themesberg.com)
 
 * Coded by https://themesberg.com
 
 =========================================================
 
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. Contact us if you want to remove it.
 
 -->
 <!DOCTYPE html>
@@ -21,7 +20,7 @@
 <head>
     @@include('./_head.html', {
         "path": "../..",
-        "title": "Pixel Lite - Bootstrap Accordions"
+        "title": "Pixel Bootstrap 5 - Accordions"
     })
 </head>
 
@@ -42,10 +41,10 @@
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8 text-center">
                         <h1 class="display-3 mb-4">Accordions</h1>
-                        <p class="lead mb-5">Using the <span class="font-weight-bold">card</span> component, you can extend the default collapse behavior to create an accordion. For properly accordion style, be sure to use <span class="font-weight-bold">.accordion</span> as a wrapper.</p>
-                        <div class="alert alert-secondary align-items-center" role="alert">
-                            <span class="alert-inner--icon"><span class="fas fa-info-circle"></span></span>
-                            <a class="font-weight-bold" href="https://themesberg.com/docs/pixel-bootstrap/components/accordions/" target="_blank">See our Documentation</a> for a detailed technical explanation.
+                        <p class="lead mb-5">The accordion uses collapse internally to make it collapsible. To render an accordion that’s expanded, add the <span class="fw-bold">.open</span> class on the <span class="fw-bold">.accordion</span>.</p>
+                        <div class="alert bg-secondary" role="alert">
+                            <span class="fas fa-info-circle"></span>
+                            <a class="fw-bold text-white text-underline mx-1" href="https://themesberg.com/docs/pixel-bootstrap/components/accordions/" target="_blank">See our Documentation</a> for a detailed technical explanation.
                         </div>
                     </div>
                 </div>
@@ -54,10 +53,6 @@
         <!-- End of Hero -->
         
         @@include('./components/_accordions.html', {
-            "path": "../.."
-        })
-
-        @@include('./_free-vs-pro.html', {
             "path": "../.."
         })
 

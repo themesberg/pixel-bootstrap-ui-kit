@@ -1,18 +1,17 @@
 <!--
 
 =========================================================
-* Pixel Lite Bootstrap Design System
+* Pixel Free Bootstrap 5 UI Kit
 =========================================================
 
-* Product Page: https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit
-* Copyright 2019 Themesberg (https://www.themesberg.com)
-* License Themesberg (Crafty Dwarf LLC) (https://themesberg.com/licensing)
+* Product Page: https://themesberg.com/product/ui-kit/pixel-free-bootstrap-5-ui-kit
+* Copyright 2021 Themesberg (https://www.themesberg.com)
 
 * Coded by https://themesberg.com
 
 =========================================================
 
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. Contact us if you want to remove it.
 
 -->
 <!DOCTYPE html>
@@ -21,7 +20,7 @@
 <head>
     @@include('./_head.html', {
         "path": "../..",
-        "title": "Pixel Pages - Sign in"
+        "title": "Pixel Bootstrap 5 - Sign in"
     })
 </head>
 
@@ -33,68 +32,66 @@
         })
 
         <!-- Section -->
-        <section class="min-vh-100 d-flex align-items-center bg-soft">
+        <section class="min-vh-100 d-flex align-items-center section-image overlay-soft-dark" data-background="../../assets/img/pages/form-image.jpg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 d-flex align-items-center justify-content-center">
-                        <div class="signin-inner mt-3 mt-lg-0 bg-white shadow-soft border rounded border-light p-4 p-lg-5 w-100 fmxw-500">
+                        <div class="signin-inner my-4 my-lg-0 bg-white shadow-soft border rounded border-gray-300 p-4 p-lg-5 w-100 fmxw-500">
                             <div class="text-center text-md-center mb-4 mt-md-0">
                                 <h1 class="mb-0 h3">Sign in to our platform</h1>
                             </div>
                             <form action="#" class="mt-4">
                                 <!-- Form -->
-                                <div class="form-group">
-                                    <label for="exampleInputIcon3">Your email</label>
-                                    <div class="input-group mb-4">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text"><span class="fas fa-envelope"></span></span>
-                                        </div>
-                                        <input class="form-control" id="exampleInputIcon3" placeholder="example@company.com" type="text" aria-label="email adress" required>
-                                    </div>
+                                <div class="form-group mb-4">
+                                    <label for="email">Your Email</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text" id="basic-addon1"><span class="fas fa-envelope"></span></span>
+                                        <input type="email" class="form-control" placeholder="example@company.com" id="email" required>
+                                    </div>  
                                 </div>
                                 <!-- End of Form -->
                                 <div class="form-group">
                                     <!-- Form -->
-                                    <div class="form-group">
-                                        <label for="password">Password</label>
-                                        <div class="input-group mb-4">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text"><span class="fas fa-unlock-alt"></span></span>
-                                            </div>
-                                            <input class="form-control" id="password" placeholder="Password" type="password" aria-label="Password" required>
-                                        </div>
+                                    <div class="form-group mb-4">
+                                        <label for="password">Your Password</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text" id="basic-addon2"><span class="fas fa-unlock-alt"></span></span>
+                                            <input type="password" placeholder="Password" class="form-control" id="password" required>
+                                        </div>  
                                     </div>
                                     <!-- End of Form -->
                                     <div class="d-flex justify-content-between align-items-center mb-4">
-                                        <div class="form-check m-0">
-                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
-                                            <label class="form-check-label" for="defaultCheck5">
+                                        <div class="form-check mb-0">
+                                            <input class="form-check-input" type="checkbox" value="" id="remember">
+                                            <label class="form-check-label mb-0" for="remember">
                                               Remember me
                                             </label>
                                         </div>
                                         <div><a href="#" class="small text-right">Lost password?</a></div>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-block btn-primary">Sign in</button>
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary">Sign in</button>
+                                </div>
                             </form>
                             <div class="mt-3 mb-4 text-center">
-                                <span class="font-weight-normal">or login with</span>
+                                <span class="fw-normal">or login with</span>
                             </div>
                             <div class="btn-wrapper my-4 text-center">
-                                <button class="btn btn-icon-only btn-pill btn-outline-light text-facebook mr-2" type="button" aria-label="facebook button" title="facebook button">
+                                <a href="#" class="btn btn-icon-only btn-pill btn-outline-gray-300 text-facebook me-2" aria-label="facebook button" title="facebook button">
                                     <span aria-hidden="true" class="fab fa-facebook-f"></span>
-                                </button>
-                                <button class="btn btn-icon-only btn-pill btn-outline-light text-twitter mr-2" type="button" aria-label="twitter button" title="twitter button">
+                                </a>
+                                <a href="#" class="btn btn-icon-only btn-pill btn-outline-gray-300 text-twitter me-2" aria-label="twitter button" title="twitter button">
                                     <span aria-hidden="true" class="fab fa-twitter"></span>
-                                </button>
-                                <button class="btn btn-icon-only btn-pill btn-outline-light text-github" type="button" aria-label="github button" title="github button">
+                                </a>
+                                <a href="#" class="btn btn-icon-only btn-pill btn-outline-gray-300 text-facebook" aria-label="github button" title="github button">
                                     <span aria-hidden="true" class="fab fa-github"></span>
-                                </button>
+                                </a>
                             </div>
-                            <div class="d-block d-sm-flex justify-content-center align-items-center mt-4">
-                                <span class="font-weight-normal">
+                            <div class="d-flex justify-content-center align-items-center mt-4">
+                                <span class="fw-normal">
                                     Not registered?
-                                    <a href="./sign-up.html" class="font-weight-bold">Create account</a>
+                                    <a href="./sign-up.html" class="fw-bold text-underline">Create account</a>
                                 </span>
                             </div>
                         </div>

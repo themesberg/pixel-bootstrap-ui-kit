@@ -1,6 +1,19 @@
-/**
- * Gulp file to automate the various tasks
- */
+/*
+
+=========================================================
+* Pixel Free Bootstrap 5 UI Kit
+=========================================================
+
+* Product Page: https://themesberg.com/product/ui-kit/pixel-free-bootstrap-5-ui-kit
+* Copyright 2021 Themesberg (https://www.themesberg.com)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. Contact us if you want to remove it.
+
+*/
 
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
@@ -59,7 +72,7 @@ const paths = {
 
 // Compile SCSS
 gulp.task('scss', function () {
-    return gulp.src([paths.src.scss + '/pixel/**/*.scss', paths.src.scss + '/pixel.scss'])
+    return gulp.src([paths.src.scss + '/custom/**/*.scss', paths.src.scss + '/pixel/**/*.scss', paths.src.scss + '/pixel.scss'])
         .pipe(wait(500))
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
@@ -72,10 +85,13 @@ gulp.task('scss', function () {
 });
 
 gulp.task('index', function () {
-    return gulp.src([paths.src.base + '**.html'])
+    return gulp.src([paths.src.base + '*.html'])
         .pipe(fileinclude({
             prefix: '@@',
-            basepath: './src/partials/'
+            basepath: './src/partials/',
+            context: {
+                environment: 'development'
+            }
         }))
         .pipe(gulp.dest(paths.temp.base))
         .pipe(browserSync.stream());
@@ -85,7 +101,10 @@ gulp.task('html', function () {
     return gulp.src([paths.src.html])
         .pipe(fileinclude({
             prefix: '@@',
-            basepath: './src/partials/'
+            basepath: './src/partials/',
+            context: {
+                environment: 'development'
+            }
         }))
         .pipe(gulp.dest(paths.temp.html))
         .pipe(browserSync.stream());
@@ -107,8 +126,8 @@ gulp.task('serve', gulp.series('scss', 'html', 'index', 'assets', 'vendor', func
         server: paths.temp.base
     });
 
-    gulp.watch([paths.src.scss + '/pixel/**/*.scss', paths.src.scss + '/pixel.scss'], gulp.series('scss'));
-    gulp.watch([paths.src.html, paths.src.base + '**.html', paths.src.partials], gulp.series('html', 'index'));
+    gulp.watch([paths.src.scss + '/custom/**/*.scss', paths.src.scss + '/pixel/**/*.scss', paths.src.scss + '/pixel.scss'], gulp.series('scss'));
+    gulp.watch([paths.src.html, paths.src.base + '*.html', paths.src.partials], gulp.series('html', 'index'));
     gulp.watch([paths.src.assets], gulp.series('assets'));
     gulp.watch([paths.src.vendor], gulp.series('vendor'));
 }));
@@ -139,7 +158,10 @@ gulp.task('minify:html', function () {
         }))
         .pipe(fileinclude({
             prefix: '@@',
-            basepath: './src/partials/'
+            basepath: './src/partials/',
+            context: {
+                environment: 'production'
+            }
         }))
         .pipe(gulp.dest(paths.dist.html))
 });
@@ -151,7 +173,10 @@ gulp.task('minify:html:index', function () {
         }))
         .pipe(fileinclude({
             prefix: '@@',
-            basepath: './src/partials/'
+            basepath: './src/partials/',
+            context: {
+                environment: 'production'
+            }
         }))
         .pipe(gulp.dest(paths.dist.base))
 });
@@ -167,7 +192,7 @@ gulp.task('clean:dev', function () {
 
 // Compile and copy scss/css
 gulp.task('copy:dist:css', function () {
-    return gulp.src([paths.src.scss + '/pixel/**/*.scss', paths.src.scss + '/pixel.scss'])
+    return gulp.src([paths.src.scss + '/custom/**/*.scss', paths.src.scss + '/pixel/**/*.scss', paths.src.scss + '/pixel.scss'])
         .pipe(wait(500))
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
@@ -179,7 +204,7 @@ gulp.task('copy:dist:css', function () {
 });
 
 gulp.task('copy:dev:css', function () {
-    return gulp.src([paths.src.scss + '/pixel/**/*.scss', paths.src.scss + '/pixel.scss'])
+    return gulp.src([paths.src.scss + '/custom/**/*.scss', paths.src.scss + '/pixel/**/*.scss', paths.src.scss + '/pixel.scss'])
         .pipe(wait(500))
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
@@ -195,7 +220,10 @@ gulp.task('copy:dist:html', function () {
     return gulp.src([paths.src.html])
         .pipe(fileinclude({
             prefix: '@@',
-            basepath: './src/partials/'
+            basepath: './src/partials/',
+            context: {
+                environment: 'production'
+            }
         }))
         .pipe(gulp.dest(paths.dist.html));
 });
@@ -204,26 +232,35 @@ gulp.task('copy:dev:html', function () {
     return gulp.src([paths.src.html])
         .pipe(fileinclude({
             prefix: '@@',
-            basepath: './src/partials/'
+            basepath: './src/partials/',
+            context: {
+                environment: 'development'
+            }
         }))
         .pipe(gulp.dest(paths.dev.html));
 });
 
 // Copy index
 gulp.task('copy:dist:html:index', function () {
-    return gulp.src([paths.src.base + '**.html'])
+    return gulp.src([paths.src.base + '*.html'])
         .pipe(fileinclude({
             prefix: '@@',
-            basepath: './src/partials/'
+            basepath: './src/partials/',
+            context: {
+                environment: 'production'
+            }
         }))
         .pipe(gulp.dest(paths.dist.base))
 });
 
 gulp.task('copy:dev:html:index', function () {
-    return gulp.src([paths.src.base + '**.html'])
+    return gulp.src([paths.src.base + '*.html'])
         .pipe(fileinclude({
             prefix: '@@',
-            basepath: './src/partials/'
+            basepath: './src/partials/',
+            context: {
+                environment: 'development'
+            }
         }))
         .pipe(gulp.dest(paths.dev.base))
 });

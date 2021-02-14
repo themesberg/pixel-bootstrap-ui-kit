@@ -1,18 +1,17 @@
 <!--
 
 =========================================================
-* Pixel Lite Bootstrap Design System
+* Pixel Free Bootstrap 5 UI Kit
 =========================================================
 
-* Product Page: https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit
-* Copyright 2019 Themesberg (https://www.themesberg.com)
-* License Themesberg (Crafty Dwarf LLC) (https://themesberg.com/licensing)
+* Product Page: https://themesberg.com/product/ui-kit/pixel-free-bootstrap-5-ui-kit
+* Copyright 2021 Themesberg (https://www.themesberg.com)
 
 * Coded by https://themesberg.com
 
 =========================================================
 
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. Contact us if you want to remove it.
 
 -->
 <!DOCTYPE html>
@@ -21,7 +20,7 @@
 <head>
     @@include('./_head.html', {
         "path": "../..",
-        "title": "Pixel Lite - Contact"
+        "title": "Pixel Bootstrap 5 - Contact"
     })
 </head>
 
@@ -52,7 +51,7 @@
             <div class="container mt-n10">
                 <div class="row">
                     <div class="col-12">
-                        <iframe class="map rounded" title="map" id="gmap_canvas" src="https://maps.google.com/maps?q=san%20francisco&t=&z=8&ie=UTF8&iwloc=&output=embed"></iframe>
+                        <iframe class="map rounded" id="gmap_canvas" src="https://maps.google.com/maps?q=san%20francisco&t=&z=8&ie=UTF8&iwloc=&output=embed"></iframe>
                     </div>
                 </div>
             </div>
@@ -61,76 +60,41 @@
         <section class="section section-lg pt-6">
             <div class="container">
                 <div class="row justify-content-center mb-5 mb-lg-6">
-                    <div class="col-12 col-md-10 col-lg-8">
+                    <div class="col-12 col-lg-8">
                         <!-- Contact Card -->
-                        <div class="card border-0 p-2 p-md-3">
-                            <div class="card-body px-0">
-                                <div class="row mb-4">
-                                    <div class="col-12 col-sm-4 col-md-4 text-center">
-                                        <!-- Visit Box -->
-                                        <div class="icon-box mb-4">
-                                            <div class="icon icon-dark mb-4">
-                                                <span class="fas fa-map-marker-alt"></span>
-                                            </div>
-                                            <h2 class="h5 icon-box-title">Visit us</h2>
-                                            <span>
-                                                Silicon Valley
-                                                <br>USA, California
-                                            </span>
-                                        </div>
-                                        <!-- End of Visit Box -->
-                                    </div>
-                                    <div class="col-12 col-sm-4 col-md-4 text-center d-none d-md-block">
-                                        <!-- Call Box -->
-                                        <div class="icon-box mb-4">
-                                            <div class="icon icon-dark mb-4">
-                                                <span class="fas fa-phone-volume"></span>
-                                            </div>
-                                            <h2 class="h5 icon-box-title">Call</h2>
-                                            <span>+3912345678</span>
-                                            <div class="text-small text-gray">
-                                                Mon - Fri, 8am - 4pm
-                                            </div>
-                                        </div>
-                                        <!-- End of Call Box -->
-                                    </div>
-                                    <div class="col-12 col-sm-6 col-md-4 text-center">
-                                        <!-- Email Box -->
-                                        <div class="icon-box mb-4">
-                                            <div class="icon icon-dark mb-4">
-                                                <span class="far fa-paper-plane"></span>
-                                            </div>
-                                            <h2 class="h5 icon-box-title">Email</h2>
-                                            <a href="#">contact@company.io</a>
-                                            <br><a href="#">marketing@company.io</a>
-                                        </div>
-                                        <!-- End of Email Box -->
-                                    </div>
-                                </div>
-                                <form>
-                                    <div class="form-group mb-4">
-                                        <label class="h6" for="exampleInputName1">Your Name</label>
+                        <div class="card border-0 p-2 p-md-3 p-lg-5">
+                            <div class="card-header bg-white border-0 text-center">
+                                <h2>Want to work with us?</h2>
+                                <p>Cool! Let’s talk about your project</p>
+                            </div>
+                            <div class="card-body px-0 pt-0">
+                                <form action="#">
+                                    <!-- Form -->
+                                    <div class="mb-4">
+                                        <label for="name">Your Name</label>
                                         <div class="input-group">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text"><span class="far fa-user"></span></span>
-                                            </div>
-                                            <input class="form-control" placeholder="John Doe" type="text" id="exampleInputName1">
+                                            <span class="input-group-text" id="basic-addon3"><span class="fas fa-user-circle"></span></span>
+                                            <input type="text" class="form-control" placeholder="e.g. Bonnie Green" id="name" required>
                                         </div>
                                     </div>
-                                    <div class="form-group mb-4">
-                                        <label class="h6" for="exampleInputEmail1">Email address</label>
+                                    <!-- End of Form -->
+                                    <!-- Form -->
+                                    <div class="mb-4">
+                                        <label for="email">Your Email</label>
                                         <div class="input-group">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text"><span class="fas fa-at"></span></span>
-                                            </div>
-                                            <input class="form-control" placeholder="Email" type="email" id="exampleInputEmail1">
+                                            <span class="input-group-text" id="basic-addon4"><span class="fas fa-envelope"></span></span>
+                                            <input type="email" class="form-control" placeholder="example@company.com" id="email" required>
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label class="h6" for="exampleFormControlTextarea1">Your message</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="How can we help?" rows="4"></textarea>
+                                    <!-- End of Form -->
+                                    <div class="mb-4">
+                                        <label for="message">Your Message</label>
+                                        <textarea placeholder="Your message" class="form-control" id="message" rows="4" required></textarea>
                                     </div>
-                                    <button type="submit" class="btn btn-block rounded btn-secondary mt-5">Send message</button>
+                                    <!-- End of Form -->
+                                    <div class="d-grid">
+                                        <button type="submit" class="btn rounded btn-secondary">Send message</button>
+                                    </div>
                                 </form>
                             </div>
                         </div>
@@ -142,31 +106,31 @@
                         <h2>Our support team</h2>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="card text-center">
-                            <div class="card-header bg-white">
-                                <img src="../../assets/img/team/profile-picture-2.jpg" class="card-img-top rounded shadow border-0" alt="Christopher Portrait">
+                        <div class="card border-0 text-center">
+                            <div class="card-header border-0 bg-white">
+                                <img src="../../assets/img/team/profile-picture-2.jpg" class="card-img-top rounded shadow border-0" alt="Christopher Avatar">
                             </div>
                             <div class="card-body">
-                                <span class="card-subtitle text-gray font-weight-normal">Sales</span>
-                                <h3 class="h4 mt-2">Christopher M. Wood</h3>
-                                <ul class="list-unstyled d-flex justify-content-center mt-3 mb-0">
+                                <span class="card-subtitle text-gray fw-normal">Sales</span>
+                                <h3 class="h4 card-title mt-2">Christopher Wood</h3>
+                                <ul class="list-unstyled d-flex justify-content-center mt-3">
                                     <li>
-                                        <a href="#" target="_blank" aria-label="facebook social link" class="icon icon-xs icon-facebook mr-3">
+                                        <a href="#" target="_blank" aria-label="facebook social link" class="icon icon-sm icon-facebook me-3">
                                             <span class="fab fa-facebook-f"></span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank" aria-label="twitter social link" class="icon icon-xs icon-twitter mr-3">
+                                        <a href="#" target="_blank" aria-label="twitter social link" class="icon icon-sm icon-twitter me-3">
                                             <span class="fab fa-twitter"></span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank" aria-label="slack social link" class="icon icon-xs icon-slack mr-3">
+                                        <a href="#" target="_blank" aria-label="slack social link" class="icon icon-sm icon-slack me-3">
                                             <span class="fab fa-slack-hash"></span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank" aria-label="dribbble social link" class="icon icon-xs icon-dribbble mr-3">
+                                        <a href="#" target="_blank" aria-label="dribbble social link" class="icon icon-sm icon-dribbble me-3">
                                             <span class="fab fa-dribbble"></span>
                                         </a>
                                     </li>
@@ -175,31 +139,31 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="card text-center">
-                            <div class="card-header bg-white">
-                                <img src="../../assets/img/team/profile-picture-3.jpg" class="card-img-top rounded shadow border-0" alt="Bonnie Portrait">
+                        <div class="card border-0 text-center">
+                            <div class="card-header border-0 bg-white">
+                                <img src="../../assets/img/team/profile-picture-3.jpg" class="card-img-top rounded shadow border-0" alt="Bonnie Avatar">
                             </div>
                             <div class="card-body">
-                                <span class="card-subtitle text-gray font-weight-normal">Marketing</span>
-                                <h3 class="h4 mt-2">Bonnie M. Green</h3>
-                                <ul class="list-unstyled d-flex justify-content-center mt-3 mb-0">
+                                <span class="card-subtitle text-gray fw-normal">Marketing</span>
+                                <h3 class="h4 card-title mt-2">Bonnie Green</h3>
+                                <ul class="list-unstyled d-flex justify-content-center mt-3">
                                     <li>
-                                        <a href="#" target="_blank" aria-label="facebook social link" class="icon icon-xs icon-facebook mr-3">
+                                        <a href="#" target="_blank" aria-label="facebook social link" class="icon icon-sm icon-facebook me-3">
                                             <span class="fab fa-facebook-f"></span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank" aria-label="twitter social link" class="icon icon-xs icon-twitter mr-3">
+                                        <a href="#" target="_blank" aria-label="twitter social link" class="icon icon-sm icon-twitter me-3">
                                             <span class="fab fa-twitter"></span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank" aria-label="slack social link" class="icon icon-xs icon-slack mr-3">
+                                        <a href="#" target="_blank" aria-label="slack social link" class="icon icon-sm icon-slack me-3">
                                             <span class="fab fa-slack-hash"></span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank" aria-label="dribbble social link" class="icon icon-xs icon-dribbble mr-3">
+                                        <a href="#" target="_blank" aria-label="dribbble social link" class="icon icon-sm icon-dribbble me-3">
                                             <span class="fab fa-dribbble"></span>
                                         </a>
                                     </li>
@@ -208,31 +172,31 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card text-center">
-                            <div class="card-header bg-white">
-                                <img src="../../assets/img/team/profile-picture-1.jpg" class="card-img-top rounded shadow border-0" alt="Neil Portrait">
+                        <div class="card border-0 text-center">
+                            <div class="card-header border-0 bg-white">
+                                <img src="../../assets/img/team/profile-picture-4.jpg" class="card-img-top rounded shadow border-0" alt="Neil Avatar">
                             </div>
                             <div class="card-body">
-                                <span class="card-subtitle text-gray font-weight-normal">Invoice</span>
-                                <h3 class="h4 mt-2">Neil D. Sims</h3>
-                                <ul class="list-unstyled d-flex justify-content-center mt-3 mb-0">
+                                <span class="card-subtitle text-gray fw-normal">Invoice</span>
+                                <h3 class="h4 card-title mt-2">Neil Sims</h3>
+                                <ul class="list-unstyled d-flex justify-content-center mt-3">
                                     <li>
-                                        <a href="#" target="_blank" aria-label="facebook social link" class="icon icon-xs icon-facebook mr-3">
+                                        <a href="#" target="_blank" aria-label="facebook social link" class="icon icon-sm icon-facebook me-3">
                                             <span class="fab fa-facebook-f"></span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank" aria-label="twitter social link" class="icon icon-xs icon-twitter mr-3">
+                                        <a href="#" target="_blank" aria-label="twitter social link" class="icon icon-sm icon-twitter me-3">
                                             <span class="fab fa-twitter"></span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank" aria-label="slack social link" class="icon icon-xs icon-slack mr-3">
+                                        <a href="#" target="_blank" aria-label="slack social link" class="icon icon-sm icon-slack me-3">
                                             <span class="fab fa-slack-hash"></span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank" aria-label="dribbble social link" class="icon icon-xs icon-dribbble mr-3">
+                                        <a href="#" target="_blank" aria-label="dribbble social link" class="icon icon-sm icon-dribbble me-3">
                                             <span class="fab fa-dribbble"></span>
                                         </a>
                                     </li>

@@ -6,17 +6,19 @@
                 <div class="mb-3">
                     <h4 class="h5">Main Buttons</h4>
                 </div>
-                <!--Buttons-->
                 <button class="btn btn-primary" type="button">Button</button>
                 <button class="btn btn-primary" type="button">
-                    <span class="mr-1"><span class="fas fa-book-open"></span></span>
+                    <span class="me-1"><span class="fas fa-book-open"></span></span>
                     Icon Left
                 </button>
                 <button class="btn btn-primary" type="button">
                     Icon Right
-                    <span class="ml-1"><span class="fas fa-book-open"></span></span>
+                    <span class="ms-1"><span class="fas fa-book-open"></span></span>
                 </button>
-                <!--End of Buttons-->
+                <button class="btn btn-icon-only btn-primary" type="button" aria-label="love button"
+                    title="love button">
+                    <span aria-hidden="true" class="far fa-heart"></span>
+                </button>
                 <!--End of Buttons-->
                 <div class="mb-3 mt-5">
                     <h4 class="h5">Outline Buttons</h4>
@@ -24,12 +26,16 @@
                 <!--Buttons-->
                 <button class="btn btn-outline-primary" type="button">Outline-primary</button>
                 <button class="btn btn-outline-primary" type="button">
-                    <span class="mr-1"><span class="far fa-save"></span></span>
+                    <span class="me-1"><span class="far fa-save"></span></span>
                     Icon Left
                 </button>
                 <button class="btn btn-outline-primary" type="button">
                     Icon Right
-                    <span class="ml-1"><span class="far fa-save"></span></span>
+                    <span class="ms-1"><span class="far fa-save"></span></span>
+                </button>
+                <button class="btn btn-outline-primary btn-icon-only" type="button" aria-label="up button"
+                    title="up button">
+                    <span aria-hidden="true" class="far fa-thumbs-up"></span>
                 </button>
                 <!--End of Buttons-->
                 <div class="mb-3 mt-5">
@@ -52,7 +58,8 @@
                 <button class="btn btn-secondary" type="button">Secondary</button>
                 <button class="btn btn-tertiary" type="button">Tertiary</button>
                 <button class="btn btn-info" type="button">Info</button>
-                <button class="btn btn-success" type="button">Success</button>
+                <button class="btn btn-success text-white" type="button">Success</button>
+                <button class="btn btn-warning" type="button">Warning</button>
                 <button class="btn btn-danger" type="button">Danger</button>
                 <button class="btn btn-dark" type="button">Dark</button>
                 <button class="btn btn-gray" type="button">Gray</button>
@@ -79,19 +86,39 @@
                         <div class="mb-4 mt-5">
                             <h4 class="h5">Social Buttons</h4>
                         </div>
-                        <button class="btn btn-facebook" type="button">
-                            <span class="mr-1"><span class="fab fa-facebook-f"></span></span>
+                        <button class="btn btn-facebook mb-3" type="button">
+                            <span class="me-1"><span class="fab fa-facebook-f"></span></span>
                             Login with Facebook
                         </button>
                         <br>
-                        <button class="btn btn-github" type="button">
-                            <span class="mr-1"><span class="fab fa-github"></span></span>
-                            Login with Github
+                        <button class="btn btn-twitter text-white mb-3" type="button">
+                            <span class="me-1"><span class="fab fa-twitter"></span></span>
+                            Share on Twitter
                         </button>
                         <br>
-                        <button class="btn btn-pinterest" type="button">
-                            <span class="mr-1"><span class="fab fa-pinterest-p"></span></span>
-                            Share on Pinterest
+                        <button class="btn btn-instagram mb-3" type="button">
+                            <span class="me-1"><span class="fab fa-instagram"></span></span>
+                            Share on Instagram
+                        </button>
+                        <br>
+                        <button class="btn btn-dribbble mb-3" type="button">
+                            <span class="me-1"><span class="fab fa-dribbble"></span></span>
+                            Login with dribbble
+                        </button>
+                        <br>
+                        <button class="btn btn-slack text-white mb-3" type="button">
+                            <span class="me-1"><span class="fab fa-slack"></span></span>
+                            Chat on Slack
+                        </button>
+                        <br>
+                        <button class="btn btn-dropbox mb-3" type="button">
+                            <span class="me-1"><span class="fab fa-dropbox"></span></span>
+                            Smart Sync
+                        </button>
+                        <br>
+                        <button class="btn btn-github" type="button">
+                            <span class="me-1"><span class="fab fa-github-alt"></span></span>
+                            Login with GitHub
                         </button>
                     </div>
                     <div class="col-12 col-lg-4">
@@ -99,19 +126,33 @@
                         <div class="mb-4 mt-5">
                             <h4 class="h5">Round Social Buttons</h4>
                         </div>
-                        <button class="btn btn-pill btn-facebook" type="button">
-                            <span class="mr-1"><span class="fab fa-facebook-f"></span></span>
-                            Login with Facebook
+                        <button class="btn btn-icon-only btn-facebook" type="button" aria-label="facebook button"
+                            title="facebook button">
+                            <span aria-hidden="true" class="fab fa-facebook"></span>
                         </button>
-                        <br>
-                        <button class="btn btn-pill btn-github" type="button">
-                            <span class="mr-1"><span class="fab fa-github"></span></span>
-                            Login with Github
+                        <button class="btn btn-icon-only btn-twitter text-white" type="button"
+                            aria-label="pinterest button" title="pinterest button">
+                            <span aria-hidden="true" class="fab fa-twitter"></span>
                         </button>
-                        <br>
-                        <button class="btn btn-pill btn-pinterest" type="button">
-                            <span class="mr-1"><span class="fab fa-pinterest-p"></span></span>
-                            Share on Pinterest
+                        <button class="btn btn-icon-only btn-instagram" type="button" aria-label="youtube button"
+                            title="youtube button">
+                            <span aria-hidden="true" class="fab fa-instagram"></span>
+                        </button>
+                        <button class="btn btn-icon-only btn-dribbble" type="button" aria-label="github button"
+                            title="github button">
+                            <span aria-hidden="true" class="fab fa-dribbble"></span>
+                        </button>
+                        <button class="btn btn-icon-only btn-slack text-white" type="button" aria-label="twitch button"
+                            title="twitch button">
+                            <span aria-hidden="true" class="fab fa-slack"></span>
+                        </button>
+                        <button class="btn btn-icon-only btn-dropbox" type="button" aria-label="paypal button"
+                            title="paypal button">
+                            <span aria-hidden="true" class="fab fa-dropbox"></span>
+                        </button>
+                        <button class="btn btn-icon-only btn-github" type="button" aria-label="behance button"
+                            title="behance button">
+                            <span aria-hidden="true" class="fab fa-github"></span>
                         </button>
                     </div>
                 </div>

@@ -1,4 +1,4 @@
-<div class="section section-lg pb-0">
+<div class="section section-md pb-0">
     <div class="container">
         <!-- Title -->
         <div class="row">
@@ -11,171 +11,137 @@
 </div>
 
 <!-- Section -->
-<div class="section section-lg pt-4">
+<div class="section section-md pt-4">
     <div class="container">
         <div class="row mb-4 mb-lg-5">
             <div class="col-lg-4 col-sm-6">
                 <!-- Form -->
-                <div class="form-group mb-4">
+                <div class="mb-4">
                     <label for="exampleInputEmail6">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail6" aria-describedby="emailHelp">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    <input type="email" class="form-control" id="exampleInputEmail6">
+                    <small id="emailHelp" class="form-text text-gray">We'll never share your email with anyone
+                        else.</small>
                 </div>
                 <!-- End of Form -->
                 <!-- Form -->
-                <div class="form-group">
-                    <label for="exampleInputIcon1">Icon Left</label>
-                    <div class="input-group mb-4">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"><span class="fas fa-search"></span></span>
-                        </div>
-                        <input class="form-control" id="exampleInputIcon1" placeholder="Icon Left" type="text" aria-label="Input with icon left">
+                <div class="mb-3">
+                    <label for="exampleInputIconLeft">Icon Left</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1"><span class="fas fa-search"></span></span>
+                        <input type="text" class="form-control" id="exampleInputIconLeft" placeholder="Search"
+                            aria-label="Search" aria-describedby="basic-addon1">
                     </div>
                 </div>
                 <!-- End of Form -->
                 <!-- Form -->
-                <div class="form-group">
-                    <label for="exampleInputIcon2">Icon Right</label>
-                    <div class="input-group mb-4">
-                        <input class="form-control" id="exampleInputIcon2" placeholder="Icon Right" aria-label="Input group" type="text">
-                        <div class="input-group-append">
-                            <span class="input-group-text"><span class="fas fa-search"></span></span>
-                        </div>
+                <div class="mb-3">
+                    <label for="exampleInputIconRight">Icon Right</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="exampleInputIconRight" placeholder="Search"
+                            aria-label="Search" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2"><span class="fas fa-search"></span></span>
                     </div>
                 </div>
                 <!-- End of Form -->
                 <!-- Form -->
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <div class="input-group mb-4">
-                        <input class="form-control" id="exampleInputPassword1" placeholder="Password" type="password" aria-label="Password">
-                        <div class="input-group-append">
-                            <span class="input-group-text"><span class="fas fa-unlock-alt"></span></span>
-                        </div>
+                <div class="mb-3">
+                    <label for="exampleInputIconPassword">Password</label>
+                    <div class="input-group">
+                        <input type="password" class="form-control" id="exampleInputIconPassword" placeholder="Password"
+                            aria-label="Password" aria-describedby="basic-addon3">
+                        <span class="input-group-text" id="basic-addon3"><span class="fas fa-unlock-alt"></span></span>
                     </div>
                 </div>
                 <!-- End of Form -->
             </div>
             <div class="col-lg-4 col-sm-6">
                 <!-- Form -->
-                <fieldset disabled>
-                    <legend class="h6">Disabled Inputs</legend>
-                    <div class="form-group">
-                        <label for="disabledTextInput">Name</label>
-                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
-                    </div>
-                    <div class="form-group">
-                        <label for="disabledSelect">Disabled select menu</label>
-                        <select id="disabledSelect" class="form-control">
+                <div class="mb-3">
+                    <label for="disabledTextInput">Name</label>
+                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input"
+                        disabled>
+                </div>
+                <div class="mb-3">
+                    <label for="disabledSelect">Disabled select menu</label>
+                    <select id="disabledSelect" class="form-control" disabled>
                         <option>Disabled select</option>
-                        </select>
-                    </div>
-                </fieldset>
-                <!-- End of Form -->
-                <!-- Form -->
-                <div class="form-group">
-                    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Country</label>
-                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-                        <option selected>Choose...</option>
-                        <option value="1">United States</option>
-                        <option value="2">Germany</option>
-                        <option value="3">Canada</option>
                     </select>
                 </div>
                 <!-- End of Form -->
                 <!-- Form -->
-                <div class="form-group">
+                <div class="mb-3">
+                    <label class="my-1 me-2" for="inlineFormCustomSelectPref">Country</label>
+                    <select class="form-select" id="inlineFormCustomSelectPref" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <!-- End of Form -->
+                <!-- Form -->
+                <div class="mb-3">
                     <label for="exampleFormControlTextarea1">Example textarea</label>
-                    <textarea class="form-control" placeholder="Enter your message..." id="exampleFormControlTextarea1" rows="4"></textarea>
-                  </div>
+                    <textarea class="form-control" placeholder="Enter your message..." id="exampleFormControlTextarea1"
+                        rows="4"></textarea>
+                </div>
                 <!-- End of Form -->
             </div>
             <div class="col-lg-4 col-sm-6">
                 <!-- Form -->
-                <div class="form-group">
+                <div class="mb-3">
                     <label for="validationServer01">First name</label>
                     <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
                     <div class="valid-feedback">
-                      Looks good!
-                    </div>                
+                        Looks good!
+                    </div>
                 </div>
                 <!-- End of Form -->
                 <!-- Form -->
-                <div class="form-group mb-4">
+                <div class="mb-4">
                     <label for="validationServerUsername">Username</label>
                     <input type="text" class="form-control is-invalid" id="validationServerUsername" required>
                     <div class="invalid-feedback">
-                      Please choose a username.
-                    </div>               
+                        Please choose a username.
+                    </div>
                 </div>
                 <!-- End of Form -->
                 <!-- Form -->
-                <div class="custom-file">
-                    <input type="file" class="custom-file-input" id="customFile" aria-label="File upload">
-                    <label class="custom-file-label" for="customFile">Choose file</label>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Default file input example</label>
+                    <input class="form-control" type="file" id="formFile">
                 </div>
                 <!-- End of Form -->
-            </div>
-        </div>
-        <h3 class="h5">Range Sliders</h3>
-        <div class="row mb-4 mb-lg-5">
-            <div class="col-lg-6 col-sm-6">
-                <!-- Simple slider -->
-                <div class="input-slider-container">
-                    <div id="input-slider-forms" class="input-slider" data-range-value-min="100" data-range-value-max="500"></div>
-                    <!-- Input slider values -->
-                    <div class="row mt-3 d-none">
-                        <div class="col-6">
-                            <span class="range-slider-value" data-range-value-low="200"></span>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of Slider -->
-            </div>
-            <!-- Range slider -->
-            <div class="col-lg-6 col-sm-6">
-                <!-- Range slider container -->
-                <div id="input-slider-range" data-range-value-min="100" data-range-value-max="500"></div>
-                <!-- Range slider values -->
-                <div class="row d-none">
-                    <div class="col-6">
-                        <span class="range-slider-value value-low" data-range-value-low="200" id="input-slider-range-value-low"></span>
-                    </div>
-                    <div class="col-6 text-right">
-                        <span class="range-slider-value value-high" data-range-value-high="400" id="input-slider-range-value-high"></span>
-                    </div>
-                </div>
-                <!-- End of range slider values -->
             </div>
         </div>
         <div class="row mb-5 mb-lg-5">
             <div class="col-lg-3 col-md-6">
                 <!-- Checkboxes -->
                 <div class="mb-3">
-                    <span class="h6 font-weight-bold">Checkboxes Round</span>
+                    <span class="h6 fw-bold">Square Checkboxes</span>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
-                    <label class="form-check-label" for="defaultCheck10">
-                      Default checkbox
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked>
+                    <label class="form-check-label" for="defaultCheck1">
+                        First Option
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck20">
-                    <label class="form-check-label" for="defaultCheck20">
-                      Second Default checkbox
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                        Second Option
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck30">
-                    <label class="form-check-label" for="defaultCheck30">
-                      Third Default checkbox
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                    <label class="form-check-label" for="defaultCheck3">
+                        Third Option
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheckDisabled" disabled>
-                    <label class="form-check-label" for="defaultCheckDisabled">
-                      Disabled checkbox
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck4" disabled>
+                    <label class="form-check-label" for="defaultCheck4">
+                        Disabled checkbox
                     </label>
                 </div>
             </div>
@@ -184,43 +150,50 @@
                 <fieldset>
                     <legend class="h6">Radios</legend>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                            value="option1" checked>
                         <label class="form-check-label" for="exampleRadios1">
-                          Default radio
+                            Default radio
                         </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                            value="option2">
                         <label class="form-check-label" for="exampleRadios2">
-                          Second default radio
+                            Second default radio
                         </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option2">
-                        <label class="form-check-label" for="exampleRadios4">
-                          Third default radio
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
+                            value="option3" disabled>
                         <label class="form-check-label" for="exampleRadios3">
-                          Disabled radio
+                            Disabled radio
                         </label>
-                      </div>
+                    </div>
                     <!-- End of Radio -->
                 </fieldset>
             </div>
             <div class="col-lg-3 col-sm-6 mt-4 mt-md-0">
                 <div class="mb-3">
-                    <span class="h6 font-weight-bold">Switches</span>
+                    <span class="h6 fw-bold">Switches</span>
                 </div>
-                <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input" id="customSwitch1">
-                    <label class="custom-control-label" for="customSwitch1">Toggle this switch element</label>
-                    </div>
-                    <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input" disabled id="customSwitch2">
-                    <label class="custom-control-label" for="customSwitch2">Disabled switch element</label>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Default switch input</label>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                    <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch input</label>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled" disabled>
+                    <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled switch input</label>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled" checked
+                        disabled>
+                    <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch
+                        input</label>
                 </div>
             </div>
         </div>
@@ -230,23 +203,25 @@
                 <div class="form-group">
                     <label class="h6" for="exampleInputDate1">Choose a date</label>
                     <div class="input-group mb-4">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"><span class="far fa-calendar-alt"></span></span>
-                        </div>
-                        <input class="form-control datepicker" id="exampleInputDate1" placeholder="Select date" type="text" aria-label="Date with icon left">
+                        <span class="input-group-text" id="basic-addonDate1"><span
+                                class="fas far fa-calendar-alt"></span></span>
+                        <input class="form-control" data-datepicker="" id="exampleInputDate1" placeholder="Select date"
+                            type="text" aria-label="Date with icon left">
                     </div>
                 </div>
                 <!-- End of Form -->
             </div>
             <div class="col-12 col-md-8">
                 <!-- Form -->
-                <div class="input-daterange datepicker row align-items-center">
+                <div class="row align-items-center">
                     <div class="col">
                         <label class="h6" for="exampleInputDate2">From</label>
                         <div class="form-group">
                             <div class="input-group input-group-border">
-                                <div class="input-group-prepend"><span class="input-group-text"><span class="far fa-calendar-alt"></span></span></div>
-                                <input class="form-control datepicker" id="exampleInputDate2" placeholder="Start date" type="text">
+                                <span class="input-group-text" id="basic-addonDate2"><span
+                                        class="fas far fa-calendar-alt"></span></span>
+                                <input class="form-control" data-datepicker="" id="exampleInputDate2"
+                                    placeholder="Start date" type="text">
                             </div>
                         </div>
                     </div>
@@ -254,8 +229,10 @@
                         <div class="form-group">
                             <label class="h6" for="exampleInputDate3">To</label>
                             <div class="input-group input-group-border">
-                                <div class="input-group-prepend"><span class="input-group-text"><span class="far fa-calendar-alt"></span></span></div>
-                                <input class="form-control datepicker" id="exampleInputDate3" placeholder="End date" type="text">
+                                <span class="input-group-text" id="basic-addonDate3"><span
+                                        class="fas far fa-calendar-alt"></span></span>
+                                <input class="form-control" data-datepicker="" id="exampleInputDate3"
+                                    placeholder="End date" type="text">
                             </div>
                         </div>
                     </div>

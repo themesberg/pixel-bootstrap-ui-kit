@@ -2,29 +2,16 @@
  * = Input groups
  */
 
- .input-group {
+.input-group {
 	border-radius: $input-border-radius;
-	transition: $transition-base;
+	transition   : $transition-base;
 
 	.form-control {
-		box-shadow: none;
 
-		&:focus {
-			box-shadow: none;
-		}
-
-		&.is-invalid{
-			border-top-right-radius: $border-radius;
-    		border-bottom-right-radius: $border-radius;
+		&.is-invalid {
+			border-top-right-radius   : $border-radius;
+			border-bottom-right-radius: $border-radius;
 		}
 	}
-}
 
-.input-group-text {
-	font-size: $font-size-sm;
-	transition: $input-transition;
-}
-
-.input-group-prepend {
-	margin-right: -2px;
 }

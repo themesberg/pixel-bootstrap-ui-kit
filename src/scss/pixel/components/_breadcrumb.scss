@@ -5,31 +5,37 @@
 
 .breadcrumb-transparent {
   background: transparent;
-  padding: 0;
+  padding   : 0;
 }
 
-@each $color, $value in $theme-colors {
-  .breadcrumb-#{$color}  {
-      background: $value;
-      .breadcrumb-item{
-          &.active {
-              color: $white;
-          }
+@each $color,
+$value in $theme-colors {
+  .breadcrumb-#{$color} {
+    background: $value;
+
+    .breadcrumb-item {
+      &.active {
+        color: $white;
       }
-      &.breadcrumb-transparent {
-        background: transparent;
-        .breadcrumb-item {
-          &.active {
-            color: $value;
-          }
+    }
+
+    &.breadcrumb-transparent {
+      background: transparent;
+
+      .breadcrumb-item {
+        &.active {
+          color: $value;
         }
       }
+    }
   }
 }
 
 .breadcrumb-text-light {
   .breadcrumb-item {
-    &, a {
+
+    &,
+    a {
       color: $breadcrumb-item-light-color;
     }
 

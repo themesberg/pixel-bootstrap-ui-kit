@@ -11,7 +11,7 @@
 		color: color-yiq($background);
 	}
 	.popover-header{
-		border-color: rgba(color-yiq($background), .2);
+		border-color: rgba($background, .2);
 	}
 	&.bs-popover-top {
 		.arrow::after {
