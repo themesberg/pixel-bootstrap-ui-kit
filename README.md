@@ -111,35 +111,30 @@ Within the download you'll find the following directories and files:
 
 ```
 Pixel Bootstrap UI Kit
+.
 ├── LICENSE
 ├── README.md
+├── dist
+│   ├── assets
+│   ├── css
+│   ├── html
+│   ├── index.html
+│   └── vendor
 ├── gulpfile.js
+├── html&css
+│   ├── assets
+│   ├── css
+│   ├── html
+│   ├── index.html
+│   └── vendor
 ├── package-lock.json
 ├── package.json
 └── src
     ├── assets
-    │   ├── img
-    │   └── js
     ├── html
-    │   ├── components
-    │   └── pages
     ├── index.html
     ├── partials
-    │   ├── _cta-careers.html
-    │   ├── _cta-footer.html
-    │   ├── _footer.html
-    │   ├── _free-vs-pro.html
-    │   ├── _head.html
-    │   ├── _navigation.html
-    │   ├── _pages-preview.html
-    │   ├── _preloader.html
-    │   ├── _scripts.html
-    │   ├── _tracking.html
-    │   └── components
     └── scss
-        ├── bootstrap
-        ├── pixel
-        └── pixel.scss
 ```
 
 ## Browser Support
