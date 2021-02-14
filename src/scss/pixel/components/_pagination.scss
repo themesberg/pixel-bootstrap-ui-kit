@@ -1,19 +1,16 @@
 /**
  * = Paginations
  */
+.circle-pagination {
 
-
-
-.circle-pagination{
     .page-link,
-    span{
+    span {
         @include display-flex();
-        align-items: center;
+        align-items    : center;
         justify-content: center;
-        width: 34px;
-        height: 34px;
-        padding: 0;
+        width          : 34px;
+        height         : 34px;
+        padding        : 0;
         @include border-radius($circle-radius);
     }
 }
-

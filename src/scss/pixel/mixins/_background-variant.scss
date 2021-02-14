@@ -3,6 +3,7 @@
     #{$parent} {
         background-color: $color !important;
     }
+
     a#{$parent},
     button#{$parent} {
         @include hover-focus {
@@ -17,9 +18,8 @@
     }
 }
 
-@mixin background-image($background-repeat,$background-size) {
-    background-repeat: $background-repeat;
+@mixin background-image($background-repeat, $background-size) {
+    background-repeat  : $background-repeat;
     background-position: top center;
-    background-size: $background-size;
+    background-size    : $background-size;
 }
-

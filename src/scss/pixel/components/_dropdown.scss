@@ -7,21 +7,21 @@
 
     .dropdown-header,
     .dropdown-item {
-        padding: .5rem 1rem;
+        padding  : .5rem 1rem;
         font-size: $dropdown-font-size;
     }
 
     .dropdown-header {
-        color: $dropdown-header-color;
+        color      : $dropdown-header-color;
         font-weight: $dropdown-header-font-weight;
     }
 
     .dropdown-item {
-        color: $dropdown-item-color;
-        transition: $transition-base;
+        color      : $dropdown-color;
+        transition : $transition-base;
         font-weight: $dropdown-item-font-weight;
-        
-        &a:hover{
+
+        &a:hover {
             color: $dropdown-item-hover-color;
         }
     }
@@ -39,7 +39,11 @@
 
 // remove the caret from Bootstrap by default
 .dropdown-toggle {
-    &:after, .dropright &:after, .dropleft &:before, .dropup &:after {
+
+    &:after,
+    .dropend &:after,
+    .dropstart &:before,
+    .dropup &:after {
         display: none;
     }
 }
@@ -47,25 +51,25 @@
 // Dropown sizes
 .dropdown-menu-sm {
     min-width: 100px;
-    border: $border-radius-lg;
+    border   : $border-radius-lg;
 }
 
 .dropdown-menu-md {
     min-width: 180px;
-    border: $border-radius-lg;
+    border   : $border-radius-lg;
 }
 
 .dropdown-menu-lg {
-    min-width: 260px;
+    min-width    : 260px;
     border-radius: $border-radius-lg;
 }
 
 .dropdown-menu-xl {
-    min-width: 450px;
+    min-width    : 450px;
     border-radius: $border-radius-lg;
 }
 
-.sr-only{
+.sr-only {
     background-color: $primary;
-    color: $white;
+    color           : $white;
 }

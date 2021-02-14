@@ -2,85 +2,41 @@
  * = Badges
  */
 
-.badge {
-    font-size:$badge-font-size;
-    line-height: 1.5;
-    font-weight: $badge-font-weight;
-
-    a {
-        color: $white;
-    }
-}
-
-// Variations
-.badge-pill {
-    padding-right: $badge-pill-padding-x;
-    padding-left: $badge-pill-padding-x;
-}
-
-// Multiple inline badges
-.badge-inline {
-    margin-right: .625rem;
-
-    & + span {
-        top: 2px;
-        position: relative;
-
-        & > a {
-            text-decoration: underline;
-        }
-    }
-}
-
-// Sizes
-.badge-md {
-    padding: .4rem .55rem;
-}
-
-.badge-lg {
-    padding: .65rem .85rem;
-}
-
-
 //Tags 
-.wi-tags{
+.wi-tags {
     a {
-        display: inline-block;
-        padding: 0.125rem 0.875rem;
-        margin: 0.25rem;
-        line-height: 2;
-        font-size: $font-size-sm;
+        display         : inline-block;
+        padding         : 0.125rem 0.875rem;
+        margin          : 0.25rem;
+        line-height     : 2;
+        font-size       : $font-size-sm;
         background-color: $white;
-        border:$border-width solid $light;
+        border          : $border-width solid $gray-300;
         @include border-radius($border-radius);
-        &:hover{
+
+        &:hover {
             background-color: $primary;
-            color: $white;
+            color           : $white;
         }
     }
 }
 
-.pixel-pro-badge,
-.pixel-pro-badge-md {
-    position: relative;
-    font-size: $font-size-lg;
+.pixel-pro-badge {
+    position      : relative;
+    font-size     : $font-size-sm;
     text-transform: uppercase;
-    font-weight: $font-weight-bold;
-    right: -20px;
-    padding: 5px 14px;
-    top: -46px;
-    background: $white;
-    border-radius: $border-radius;
-    box-shadow: $box-shadow-sm;
-    @include media-breakpoint-down(sm){
-        font-size: $font-size-base;
-        right: -13px;
-        padding: 5px 10px;
-        top: -23px;
-    }
-}
+    font-weight   : $font-weight-bold;
+    right         : -11px;
+    padding       : 4px 12px;
+    top           : -30px;
+    background    : $white;
+    @include border-radius($border-radius-sm);
+    @include box-shadow($box-shadow-sm);
 
-.pixel-pro-badge-md {
-    font-size: $font-size-lg;
-    padding: 5px 7px;
+    @include media-breakpoint-down(sm) {
+        font-size: .7rem;
+        right    : -13px;
+        padding  : 3px 7px;
+        top      : -23px;
+    }
 }

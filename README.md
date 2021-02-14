@@ -1,9 +1,9 @@
-# [Pixel Bootstrap 4 UI Kit](https://demo.themesberg.com/pixel-lite/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fthemesberg%2Fpixel-bootstrap-ui-kit&via=themesberg&text=Kick-start%20development%20with%20Pixel%20Bootstrap%20UI%20Kit&hashtags=bootstrap%2C%20ui%20kit)
+# [Pixel Bootstrap 5 UI Kit](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fthemesberg%2Fpixel-bootstrap-ui-kit&via=themesberg&text=Kick-start%20development%20with%20Pixel%20Bootstrap%20UI%20Kit&hashtags=bootstrap%2C%20ui%20kit)
 
  ![version](https://img.shields.io/badge/version-3.1.2-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/themesberg/pixel-bootstrap-ui-kit.svg?maxAge=2592000)](https://github.com/themesberg/pixel-bootstrap-ui-kit/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/themesberg/pixel-bootstrap-ui-kit.svg?maxAge=2592000)](https://github.com/themesberg/pixel-bootstrap-ui-kit/issues?q=is%3Aissue+is%3Aclosed)
 
-<a href="https://demo.themesberg.com/pixel-lite/">
- <img src="https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/pixel-lite-preview.gif" alt="Pixel Bootstrap 4 UI Kit Preview"/>
+<a href="https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/">
+ <img src="https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/pixel-lite-preview.gif" alt="Pixel Bootstrap 5 UI Kit Preview"/>
  </a>
 
 Pixel is a free, fully responsive, modern Bootstrap UI Kit that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs.
@@ -12,11 +12,11 @@ Pixel is a free, fully responsive, modern Bootstrap UI Kit that will help you bu
 
 Pixel is a premium extension of the famous Bootstrap CSS Framework featuring pricing cards, profile cards, timelines and many more and additional plugins for datepickers and input sliders which Bootstrap does not have by default.
 
-Check out [all components here](https://demo.themesberg.com/pixel-lite/html/components/all.html).
+Check out [all components here](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/components/all.html).
 
 ## Example pages
 
-Pixel comes with 6 example pages that we created to show you the beautiful user interfaces that can be created including a pricing, contact, login and register page.
+Pixel comes with 5 example pages that we created to show you the beautiful user interfaces that can be created including a pricing, contact, login and register page.
 
 ## Full documentation
 
@@ -47,13 +47,13 @@ This product is built using the following widely used technologies:
 
 | Components | About | Pricing | Services |
 | --- | --- | --- | --- |
-| [![Components](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/all-components.jpg)](https://demo.themesberg.com/pixel-lite/html/components/all.html) | [![About page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/about.jpg)](https://demo.themesberg.com/pixel-lite/html/pages/about-company.html) | [![Pricing page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/pricing.jpg)](https://demo.themesberg.com/pixel-lite/html/pages/pricing.html) | [![Services page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/services.jpg)](https://demo.themesberg.com/pixel-lite/html/pages/services.html)
+| [![Components](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/all-components.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/components/all.html) | [![About page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/about.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/about-company.html) | [![Pricing page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/pricing.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/pricing.html) | [![Services page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/services.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/services.html)
 
 | Contact | Login | Register | Documentation |
 | --- | --- | --- | --- |
-| [![Contact page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/contact.jpg)](https://demo.themesberg.com/pixel-lite/html/pages/contact.html) | [![Login page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/sign-in.jpg)](https://demo.themesberg.com/pixel-lite/html/pages/sign-in.html) | [![Register page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/sign-up.jpg)](https://demo.themesberg.com/pixel-lite/html/pages/sign-up.html) | [![Documentation](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/docs.jpg)](https://themesberg.com/docs/pixel-bootstrap/getting-started/overview/)
+| [![Contact page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/contact.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/contact.html) | [![Login page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/sign-in.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/sign-in.html) | [![Register page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/sign-up.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/sign-up.html) | [![Documentation](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/docs.jpg)](https://themesberg.com/docs/pixel-bootstrap/getting-started/overview/)
 
--   [Live Preview](https://demo.themesberg.com/pixel-lite/)
+-   [Live Preview](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/)
 -   [Details](https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit?ref=github-pixel-lite-bootstrap)
 
 ## Quick start
@@ -149,7 +149,7 @@ At present, we officially aim to support the last two versions of the following 
 <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
 
 ## Resources
-- Demo: <https://demo.themesberg.com/pixel-lite/index.html>
+- Demo: <https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/index.html>
 - Download Page: <https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit?ref=github-pixel-lite-bootstrap>
 - Documentation: <https://themesberg.com/docs/pixel-bootstrap/getting-started/overview?ref=github-pixel-lite-bootstrap>
 - License Agreement: <https://themesberg.com/licensing?ref=github-pixel-lite-bootstrap>

@@ -1,3 +1,4 @@
+@import "components/body";
 @import "components/accordions";
 @import "components/alerts";
 @import "components/avatars";
@@ -7,14 +8,14 @@
 @import "components/card";
 @import "components/carousel";
 @import "components/close";
-@import "components/counters";
+@import "components/datepicker";
 @import "components/custom-forms";
 @import "components/dropdown";
 @import "components/forms";
-@import "components/icons";
 @import "components/images";
 @import "components/input-group";
 @import "components/list-group";
+@import "components/timelines";
 @import "components/maps";
 @import "components/modal";
 @import "components/nav";
@@ -23,5 +24,7 @@
 @import "components/progress";
 @import "components/preloader";
 @import "components/shapes";
+@import "components/steps";
+@import "components/icons";
 @import "components/type";
 @import "components/tooltip";

@@ -8,13 +8,22 @@
     &:hover,
     &.active {
         color: $nav-link-hover-color;
-        img{
-            opacity: inherit;
+
+        img {
+            opacity   : inherit;
             transition: $transition-base;
         }
     }
 
-    img{
+    span {
+        position: relative;
+
+        &:hover {
+            color: $nav-link-hover-color;
+        }
+    }
+
+    img {
         opacity: .5;
     }
 }
@@ -23,12 +32,12 @@
 
 .nav-tabs {
     .nav-item {
-        margin-bottom:0;
+        margin-bottom: 0;
     }
-  
+
     .nav-link {
-        border: 0;
-        padding:1rem 1rem;
+        border : 0;
+        padding: 1rem 1rem;
     }
 }
 
@@ -40,60 +49,59 @@
         padding-right: $nav-pills-space-x;
     }
 
-    .nav-link { 
-    	padding: $nav-pills-padding-y $nav-pills-padding-x;
+    .nav-link {
+        padding   : $nav-pills-padding-y $nav-pills-padding-x;
         transition: $transition-base;
-        box-shadow:$nav-link-shadow;
-        border:$nav-pills-border-width solid $nav-pills-border-color;
+        box-shadow: $nav-link-shadow;
+        border    : $nav-pills-border-width solid $nav-pills-border-color;
 
-        span {
-            margin-right: .7rem;
+        &.avatar-link {
+            border: 0;
         }
 
-        &.avatar-link{
-            border:0;
-        }
-
-        &:hover{
+        &:hover {
             background-color: $nav-pills-link-active-bg;
         }
     }
- 
+
     .nav-link.active,
-    .show > .nav-link {
-        color: $nav-pills-link-active-color;
+    .show>.nav-link {
+        color           : $nav-pills-link-active-color;
         background-color: $nav-pills-link-active-bg;
-        border-color:$nav-pills-link-active-color;
+        border-color    : $nav-pills-link-active-color;
     }
 
-    &.rounded{
-        .nav-link{
-            border-radius:30px;
+    &.rounded {
+        .nav-link {
+            border-radius: 30px;
         }
-        &.vertical-tab { 
-            .nav-link{
+
+        &.vertical-tab {
+            .nav-link {
                 margin-bottom: .625rem;
-                min-width: 100px;
+                min-width    : 100px;
             }
+
             .nav-item:not(:last-child) {
-                padding-right:0;
+                padding-right: 0;
             }
         }
     }
 
-    &.bordered-pill-md{
-        .nav-link{
-            border: $border-width-md solid $gray-200;
-            font-weight:$font-weight-bold;
+    &.bordered-pill-md {
+        .nav-link {
+            border     : $border-width-md solid $gray-200;
+            font-weight: $font-weight-bold;
         }
     }
 
-    &.vertical-tab { 
-        .nav-link{
+    &.vertical-tab {
+        .nav-link {
             margin-bottom: .625rem;
         }
+
         .nav-item:not(:last-child) {
-            padding-right:0;
+            padding-right: 0;
         }
     }
 
@@ -110,36 +118,41 @@
             padding-right: 0;
         }
     }
-} 
+}
 
-// Navs square
 
-.nav-pill-square {
+// Navs circle
+
+.nav-pill-circle {
     .nav-link {
-        text-align: center;
-        min-width: 80px;
-        box-shadow: $nav-link-shadow;
         @include display-flex();
-        align-items: center;
+        text-align     : center;
+        height         : 80px;
+        width          : 80px;
+        padding        : 0;
+        box-shadow     : $nav-link-shadow;
+        border-radius  : $nav-pills-border-circle;
+        align-items    : center;
         justify-content: center;
+
+        &.avatar-link {
+            box-shadow: none;
+        }
     }
 
-    &.vertical-tab{
-        .nav-link{
-            margin-bottom: .625rem;
-            min-width: 100px;
-        }
+    &.vertical-tab {
         .nav-item:not(:last-child) {
-            padding-right:0;
+            padding-right: 0;
         }
     }
 
     .nav-link-icon {
-        i, svg {
+
+        span,
+        svg {
             font-size: 1.25rem;
-            margin:0;
-            display: block;
-            line-height: 50px;
+            margin   : 0;
+            display  : block;
         }
     }
 }
@@ -149,7 +162,7 @@
     padding: 1rem 0;
     @include border-top-radius($card-border-radius);
 
-    + .card {
+    +.card {
         @include border-top-radius(0);
         @include border-bottom-radius($card-border-radius);
     }
@@ -160,15 +173,16 @@
 // Hide tabbable panes to start, show them when `.active`
 
 .tab-content {
-    > .tab-pane {
+    >.tab-pane {
         display: none;
-        pre{
-            padding:0;
-            margin:0;
+
+        pre {
+            padding: 0;
+            margin : 0;
         }
     }
-    
-    > .active {
+
+    >.active {
         display: block;
     }
 }

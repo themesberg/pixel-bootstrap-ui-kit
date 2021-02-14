@@ -1,46 +1,61 @@
 /**
  * = List groups
- */
+*/
 
-// Space list items
-.list-group-item{
-	background: transparent;
+
+.list-group-item {
+	background   : transparent;
+	border-radius: $list-group-item-border-radius;
+
+	&:first-child,
+	&:last-child {
+		border-radius: $list-group-item-border-radius;
+	}
+}
+
+.list-group {
+	&.dashboard-menu {
+		.list-group-item {
+			&:hover {
+				background-color: #f5f5f5;
+				@include border-radius($list-group-border-radius);
+			}
+
+			&.active {
+				color      : $tertiary;
+				background : transparent;
+				font-weight: $font-weight-bold;
+			}
+		}
+	}
 }
 
 .list-group-space {
-    .list-group-item {
+	.list-group-item {
 		margin-bottom: 1.5rem;
-        @include border-radius($list-group-border-radius);
-    }
+		@include border-radius($list-group-border-radius);
+	}
 }
 
 .list-group-img {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    vertical-align: top;
-    margin: -.1rem 1.2rem 0 -.2rem;
+	width         : 3rem;
+	height        : 3rem;
+	border-radius : 50%;
+	vertical-align: top;
+	margin        : -.1rem 1.2rem 0 -.2rem;
 }
 
+.list-group-sm {
+	.list-group-item {
+		padding      : $list-group-sm-item-padding-y $list-group-sm-item-padding-x;
+		color        : $list-group-color;
+		border-bottom: $list-group-border-width solid #f9f7f7;
 
-
-//News list for widgets
-
-.news-list{
-	.row{
-		> [class*='col']{
-	  		padding: 0 $spacer/4;
+		&.active {
+			border-color: #f9f7f7;
+			border-left : 0;
+			border-right: 0;
+			font-weight : $font-weight-bold;
 		}
-	}
-
-	> li{
-		&:not(:last-child){
-		  margin-bottom: .75rem;
-		}
-	}
-
-	img{
-		min-height: 100%;
-		object-fit: cover;
 	}
 }
