@@ -45,9 +45,9 @@ This product is built using the following widely used technologies:
 
 ## Demo
 
-| Components | About | Pricing | Services |
+| Components | About | Contact | Freelancer |
 | --- | --- | --- | --- |
-| [![Components](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/all-components.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit#components) | [![About page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/about.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/about.html) | [![Freelancer](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/freelancer.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/landing-freelancer.html)
+| [![Components](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/all-components.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit#components) | [![About page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/about.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/about.html) | [![Contact](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/contact.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/contact.html) | [![Freelancer](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/freelancer.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/landing-freelancer.html)
 
 | Contact | Login | Register | Documentation |
 | --- | --- | --- | --- |
