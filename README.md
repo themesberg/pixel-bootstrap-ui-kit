@@ -20,7 +20,7 @@ Pixel comes with 5 example pages that we created to show you the beautiful user 
 
 ## Full documentation
 
-Each component, plugin and the general workflow is well documented. Check out the [online documentation for Pixel](https://themesberg.com/docs/pixel-bootstrap/getting-started/overview/).
+Each component, plugin and the general workflow is well documented. Check out the [online documentation for Pixel](https://themesberg.com/docs/bootstrap-5/pixel/getting-started/quick-start/).
 
 ## Workflow
 
@@ -51,7 +51,7 @@ This product is built using the following widely used technologies:
 
 | Contact | Login | Register | Documentation |
 | --- | --- | --- | --- |
-| [![Contact page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/contact.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/contact.html) | [![Login page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/sign-in.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/sign-in.html) | [![Register page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/sign-up.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/sign-up.html) | [![Documentation](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/docs.jpg)](https://themesberg.com/docs/pixel-bootstrap/getting-started/overview/)
+| [![Contact page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/contact.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/contact.html) | [![Login page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/sign-in.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/sign-in.html) | [![Register page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/sign-up.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/sign-up.html) | [![Documentation](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/docs.jpg)](https://themesberg.com/docs/bootstrap-5/pixel/getting-started/quick-start/)
 
 -   [Live Preview](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/)
 -   [Details](https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit?ref=github-pixel-lite-bootstrap)
