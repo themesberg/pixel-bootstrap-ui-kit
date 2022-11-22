@@ -1,4 +1,4 @@
-# [🔥 Black Friday 2021 - Buy Pixel Pro for 90% Off](https://themesberg.com/black-friday)
+# [🔥 Black Friday 2022 - Buy Pixel Pro for 90% Off](https://themesberg.com/black-friday)
 [![Themesberg Black Friday 2021](https://themesberg.com/img/campaigns/black-friday/og-image.png)](https://themesberg.com/black-friday)
 
 # [Pixel Bootstrap 5 UI Kit](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fthemesberg%2Fpixel-bootstrap-ui-kit&via=themesberg&text=Kick-start%20development%20with%20Pixel%20Bootstrap%20UI%20Kit&hashtags=bootstrap%2C%20ui%20kit)
