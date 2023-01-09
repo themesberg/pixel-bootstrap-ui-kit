@@ -1,6 +1,3 @@
-# [🔥 Black Friday 2022 - Buy Pixel Pro for 90% Off](https://themesberg.com/black-friday)
-[![Themesberg Black Friday 2021](https://themesberg.com/img/campaigns/black-friday/og-image.png)](https://themesberg.com/black-friday)
-
 # [Pixel Bootstrap 5 UI Kit](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fthemesberg%2Fpixel-bootstrap-ui-kit&via=themesberg&text=Kick-start%20development%20with%20Pixel%20Bootstrap%20UI%20Kit&hashtags=bootstrap%2C%20ui%20kit)
 
  ![version](https://img.shields.io/badge/version-4.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/themesberg/pixel-bootstrap-ui-kit.svg?maxAge=2592000)](https://github.com/themesberg/pixel-bootstrap-ui-kit/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/themesberg/pixel-bootstrap-ui-kit.svg?maxAge=2592000)](https://github.com/themesberg/pixel-bootstrap-ui-kit/issues?q=is%3Aissue+is%3Aclosed)
