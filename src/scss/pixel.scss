@@ -20,53 +20,53 @@
 // update variables here
 @import "custom/variables";
 
-@import "../../node_modules/bootstrap/scss/functions";
+@import "vendor/bootstrap/scss/functions";
 @import "pixel/variables";
 
 // Third party
-@import '../../node_modules/vanillajs-datepicker/sass/datepicker.scss';
+@import 'vendor/vanillajs-datepicker/sass/datepicker.scss';
 
 // Bootstrap
-@import "../../node_modules/bootstrap/scss/variables";
-@import "../../node_modules/bootstrap/scss/mixins";
-@import "../../node_modules/bootstrap/scss/utilities";
+@import "vendor/bootstrap/scss/variables";
+@import "vendor/bootstrap/scss/mixins";
+@import "vendor/bootstrap/scss/utilities";
 
 // Bootstrap Layout & components
-@import "../../node_modules/bootstrap/scss/root";
-@import "../../node_modules/bootstrap/scss/reboot";
-@import "../../node_modules/bootstrap/scss/type";
-@import "../../node_modules/bootstrap/scss/images";
-@import "../../node_modules/bootstrap/scss/containers";
-@import "../../node_modules/bootstrap/scss/grid";
-@import "../../node_modules/bootstrap/scss/tables";
-@import "../../node_modules/bootstrap/scss/forms";
-@import "../../node_modules/bootstrap/scss/buttons";
-@import "../../node_modules/bootstrap/scss/transitions";
-@import "../../node_modules/bootstrap/scss/dropdown";
-@import "../../node_modules/bootstrap/scss/button-group";
-@import "../../node_modules/bootstrap/scss/nav";
-@import "../../node_modules/bootstrap/scss/navbar";
-@import "../../node_modules/bootstrap/scss/card";
-@import "../../node_modules/bootstrap/scss/accordion";
-@import "../../node_modules/bootstrap/scss/breadcrumb";
-@import "../../node_modules/bootstrap/scss/pagination";
-@import "../../node_modules/bootstrap/scss/badge";
-@import "../../node_modules/bootstrap/scss/alert";
-@import "../../node_modules/bootstrap/scss/progress";
-@import "../../node_modules/bootstrap/scss/list-group";
-@import "../../node_modules/bootstrap/scss/close";
-@import "../../node_modules/bootstrap/scss/toasts";
-@import "../../node_modules/bootstrap/scss/modal";
-@import "../../node_modules/bootstrap/scss/tooltip";
-@import "../../node_modules/bootstrap/scss/popover";
-@import "../../node_modules/bootstrap/scss/carousel";
-@import "../../node_modules/bootstrap/scss/spinners";
+@import "vendor/bootstrap/scss/root";
+@import "vendor/bootstrap/scss/reboot";
+@import "vendor/bootstrap/scss/type";
+@import "vendor/bootstrap/scss/images";
+@import "vendor/bootstrap/scss/containers";
+@import "vendor/bootstrap/scss/grid";
+@import "vendor/bootstrap/scss/tables";
+@import "vendor/bootstrap/scss/forms";
+@import "vendor/bootstrap/scss/buttons";
+@import "vendor/bootstrap/scss/transitions";
+@import "vendor/bootstrap/scss/dropdown";
+@import "vendor/bootstrap/scss/button-group";
+@import "vendor/bootstrap/scss/nav";
+@import "vendor/bootstrap/scss/navbar";
+@import "vendor/bootstrap/scss/card";
+@import "vendor/bootstrap/scss/accordion";
+@import "vendor/bootstrap/scss/breadcrumb";
+@import "vendor/bootstrap/scss/pagination";
+@import "vendor/bootstrap/scss/badge";
+@import "vendor/bootstrap/scss/alert";
+@import "vendor/bootstrap/scss/progress";
+@import "vendor/bootstrap/scss/list-group";
+@import "vendor/bootstrap/scss/close";
+@import "vendor/bootstrap/scss/toasts";
+@import "vendor/bootstrap/scss/modal";
+@import "vendor/bootstrap/scss/tooltip";
+@import "vendor/bootstrap/scss/popover";
+@import "vendor/bootstrap/scss/carousel";
+@import "vendor/bootstrap/scss/spinners";
 
 // Helpers
-@import "../../node_modules/bootstrap/scss/helpers";
+@import "vendor/bootstrap/scss/helpers";
 
 // Utilities
-@import "../../node_modules/bootstrap/scss/utilities/api";
+@import "vendor/bootstrap/scss/utilities/api";
 // scss-docs-end import-stack
 
 // Mixins & functions
